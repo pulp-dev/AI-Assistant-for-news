@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-15T19:16:15+00:00",
-  "generated_at_msk": "2026-09-15T22:16:15+03:00",
+  "generated_at_utc": "2026-09-15T21:38:43+00:00",
+  "generated_at_msk": "2026-09-16T00:38:43+03:00",
   "source": "MOEX ISS",
   "source_base": "https://iss.moex.com/iss",
   "note": "Public MOEX ISS data may be delayed. Calculated yields are transparent analytical fields, not exchange trading signals.",
@@ -38,19 +38,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 99.06,
-        "OFFER": 99.08,
-        "LAST": 99.06,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 99.09,
         "MARKETPRICE": 99.2,
         "MARKETPRICE2": 98.7,
-        "YIELD": 15.42,
-        "LASTCHANGE": -0.01,
-        "NUMTRADES": 630,
-        "VALTODAY": 90116779,
-        "VOLTODAY": 91300,
-        "SYSTIME": "2026-09-15 22:16:13",
-        "UPDATETIME": "22:01:13",
-        "SEQNUM": 20260915221613
+        "YIELD": 15.4,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 677,
+        "VALTODAY": 90804295,
+        "VOLTODAY": 91994,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "РусГидро БО-002Р-07",
@@ -86,15 +86,15 @@
           "estimated_future_coupon_count": 0
         },
         "purchase": {
-          "price_pct": 99.08,
-          "price_source": "OFFER",
-          "bid_pct": 99.06,
-          "ask_pct": 99.08,
-          "last_pct": 99.06,
+          "price_pct": 99.09,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 99.09,
           "face_value": 1000.0,
-          "clean_price_rub": 990.8,
+          "clean_price_rub": 990.9,
           "accrued_interest_rub": 4.17,
-          "dirty_price_rub": 994.97,
+          "dirty_price_rub": 995.07,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -103,16 +103,16 @@
           "coupon_cash_rub": 261.74,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1261.74,
-          "profit_per_bond_rub": 266.77,
-          "body_discount_premium_result_rub": 9.2,
-          "total_return_pct": 26.811864
+          "profit_per_bond_rub": 266.67,
+          "body_discount_premium_result_rub": 9.1,
+          "total_return_pct": 26.79912
         },
         "yields": {
-          "current_coupon_yield_pct": 13.978603,
-          "simple_yield_to_maturity_pct": 14.412857,
-          "xirr_effective_pct": 15.404015,
-          "moex_yield_pct": 15.42,
-          "spread_to_key_rate_simple_pp": 0.412857
+          "current_coupon_yield_pct": 13.977192,
+          "simple_yield_to_maturity_pct": 14.406007,
+          "xirr_effective_pct": 15.396954,
+          "moex_yield_pct": 15.4,
+          "spread_to_key_rate_simple_pp": 0.406007
         },
         "projected_cashflows": {
           "coupons": [
@@ -873,19 +873,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 102.52,
-        "OFFER": 102.62,
-        "LAST": 102.62,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 102.36,
         "MARKETPRICE": 102.41,
         "MARKETPRICE2": null,
-        "YIELD": 14.85,
-        "LASTCHANGE": 0.12,
-        "NUMTRADES": 69,
-        "VALTODAY": 377598,
-        "VOLTODAY": 368,
-        "SYSTIME": "2026-09-15 22:16:13",
-        "UPDATETIME": "22:01:13",
-        "SEQNUM": 20260915221613
+        "YIELD": 15.14,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 82,
+        "VALTODAY": 442195,
+        "VOLTODAY": 431,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "Минфин Амурской обл. 31002",
@@ -921,15 +921,15 @@
           "estimated_future_coupon_count": 0
         },
         "purchase": {
-          "price_pct": 102.62,
-          "price_source": "OFFER",
-          "bid_pct": 102.52,
-          "ask_pct": 102.62,
-          "last_pct": 102.62,
+          "price_pct": 102.36,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 102.36,
           "face_value": 1000.0,
-          "clean_price_rub": 1026.2,
+          "clean_price_rub": 1023.6,
           "accrued_interest_rub": 27.99,
-          "dirty_price_rub": 1054.19,
+          "dirty_price_rub": 1051.59,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -938,16 +938,16 @@
           "coupon_cash_rub": 209.72,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1209.72,
-          "profit_per_bond_rub": 155.53,
-          "body_discount_premium_result_rub": -26.2,
-          "total_return_pct": 14.753507
+          "profit_per_bond_rub": 158.13,
+          "body_discount_premium_result_rub": -23.6,
+          "total_return_pct": 15.037229
         },
         "yields": {
-          "current_coupon_yield_pct": 16.322354,
-          "simple_yield_to_maturity_pct": 13.598561,
-          "xirr_effective_pct": 14.849128,
-          "moex_yield_pct": 14.85,
-          "spread_to_key_rate_simple_pp": -0.401439
+          "current_coupon_yield_pct": 16.363814,
+          "simple_yield_to_maturity_pct": 13.860072,
+          "xirr_effective_pct": 15.13606,
+          "moex_yield_pct": 15.14,
+          "spread_to_key_rate_simple_pp": -0.139928
         },
         "projected_cashflows": {
           "coupons": [
@@ -1170,19 +1170,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 99.91,
-        "OFFER": 100.18,
+        "BID": null,
+        "OFFER": null,
         "LAST": 100.18,
         "MARKETPRICE": 99.9,
         "MARKETPRICE2": 100.12,
         "YIELD": 15.26,
-        "LASTCHANGE": -0.01,
+        "LASTCHANGE": 0,
         "NUMTRADES": 53,
         "VALTODAY": 1886794,
         "VOLTODAY": 1887,
-        "SYSTIME": "2026-09-15 22:14:10",
-        "UPDATETIME": "21:59:10",
-        "SEQNUM": 20260915221410
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "Ростелеком ПАО 001P-07R",
@@ -1221,9 +1221,9 @@
         },
         "purchase": {
           "price_pct": 100.18,
-          "price_source": "OFFER",
-          "bid_pct": 99.91,
-          "ask_pct": 100.18,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
           "last_pct": 100.18,
           "face_value": 1000.0,
           "clean_price_rub": 1001.8,
@@ -1526,19 +1526,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 106.42,
-        "OFFER": 106.47,
-        "LAST": 106.47,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 106.39,
         "MARKETPRICE": 106.43,
         "MARKETPRICE2": 106.49,
-        "YIELD": 17.63,
-        "LASTCHANGE": 0.02,
-        "NUMTRADES": 946,
-        "VALTODAY": 17396417,
-        "VOLTODAY": 16338,
-        "SYSTIME": "2026-09-15 22:16:01",
-        "UPDATETIME": "22:01:01",
-        "SEQNUM": 20260915221601
+        "YIELD": 17.73,
+        "LASTCHANGE": -0.02,
+        "NUMTRADES": 972,
+        "VALTODAY": 17514568,
+        "VOLTODAY": 16449,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "Селигдар 001Р-03",
@@ -1574,15 +1574,15 @@
           "estimated_future_coupon_count": 0
         },
         "purchase": {
-          "price_pct": 106.47,
-          "price_source": "OFFER",
-          "bid_pct": 106.42,
-          "ask_pct": 106.47,
-          "last_pct": 106.47,
+          "price_pct": 106.39,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 106.39,
           "face_value": 1000.0,
-          "clean_price_rub": 1064.7,
+          "clean_price_rub": 1063.9,
           "accrued_interest_rub": 10.19,
-          "dirty_price_rub": 1074.89,
+          "dirty_price_rub": 1074.09,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -1591,16 +1591,16 @@
           "coupon_cash_rub": 248.43,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1248.43,
-          "profit_per_bond_rub": 173.54,
-          "body_discount_premium_result_rub": -64.7,
-          "total_return_pct": 16.144908
+          "profit_per_bond_rub": 174.34,
+          "body_discount_premium_result_rub": -63.9,
+          "total_return_pct": 16.231414
         },
         "yields": {
-          "current_coupon_yield_pct": 21.837137,
-          "simple_yield_to_maturity_pct": 15.756394,
-          "xirr_effective_pct": 17.631139,
-          "moex_yield_pct": 17.63,
-          "spread_to_key_rate_simple_pp": 1.756394
+          "current_coupon_yield_pct": 21.853558,
+          "simple_yield_to_maturity_pct": 15.840819,
+          "xirr_effective_pct": 17.726718,
+          "moex_yield_pct": 17.73,
+          "spread_to_key_rate_simple_pp": 1.840819
         },
         "projected_cashflows": {
           "coupons": [
@@ -2215,19 +2215,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 101.43,
-        "OFFER": 101.54,
-        "LAST": 101.55,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 101.42,
         "MARKETPRICE": 101.25,
         "MARKETPRICE2": 101.46,
-        "YIELD": 17.65,
-        "LASTCHANGE": 0.01,
-        "NUMTRADES": 246,
-        "VALTODAY": 9722488,
-        "VOLTODAY": 9580,
-        "SYSTIME": "2026-09-15 22:16:01",
-        "UPDATETIME": "22:01:01",
-        "SEQNUM": 20260915221601
+        "YIELD": 17.8,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 259,
+        "VALTODAY": 9970042,
+        "VOLTODAY": 9824,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "Селигдар 001Р-07",
@@ -2265,15 +2265,15 @@
           "estimated_future_coupon_count": 13
         },
         "purchase": {
-          "price_pct": 101.54,
-          "price_source": "OFFER",
-          "bid_pct": 101.43,
-          "ask_pct": 101.54,
-          "last_pct": 101.55,
+          "price_pct": 101.42,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 101.42,
           "face_value": 1000.0,
-          "clean_price_rub": 1015.4,
+          "clean_price_rub": 1014.2,
           "accrued_interest_rub": 3.04,
-          "dirty_price_rub": 1018.44,
+          "dirty_price_rub": 1017.24,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -2282,16 +2282,16 @@
           "coupon_cash_rub": 197.671233,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1197.671233,
-          "profit_per_bond_rub": 179.231233,
-          "body_discount_premium_result_rub": -15.4,
-          "total_return_pct": 17.598605
+          "profit_per_bond_rub": 180.431233,
+          "body_discount_premium_result_rub": -14.2,
+          "total_return_pct": 17.737332
         },
         "yields": {
-          "current_coupon_yield_pct": 18.219421,
-          "simple_yield_to_maturity_pct": 16.727841,
-          "xirr_effective_pct": 18.263355,
-          "moex_yield_pct": 17.65,
-          "spread_to_key_rate_simple_pp": 2.727841
+          "current_coupon_yield_pct": 18.240978,
+          "simple_yield_to_maturity_pct": 16.859703,
+          "xirr_effective_pct": 18.408387,
+          "moex_yield_pct": 17.8,
+          "spread_to_key_rate_simple_pp": 2.859703
         },
         "projected_cashflows": {
           "coupons": [
@@ -2813,19 +2813,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 100.36,
-        "OFFER": 100.46,
-        "LAST": 100.36,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 100.46,
         "MARKETPRICE": 100.48,
         "MARKETPRICE2": 100.42,
-        "YIELD": 15.44,
-        "LASTCHANGE": -0.1,
-        "NUMTRADES": 106,
-        "VALTODAY": 1308489,
-        "VOLTODAY": 1303,
-        "SYSTIME": "2026-09-15 22:16:01",
-        "UPDATETIME": "22:01:01",
-        "SEQNUM": 20260915221601
+        "YIELD": 15.29,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 110,
+        "VALTODAY": 1316526,
+        "VOLTODAY": 1311,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "ГруппаЧеркизово БО-001Р-07",
@@ -2864,10 +2864,10 @@
         },
         "purchase": {
           "price_pct": 100.46,
-          "price_source": "OFFER",
-          "bid_pct": 100.36,
-          "ask_pct": 100.46,
-          "last_pct": 100.36,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 100.46,
           "face_value": 1000.0,
           "clean_price_rub": 1004.6,
           "accrued_interest_rub": 11.78,
@@ -2888,7 +2888,7 @@
           "current_coupon_yield_pct": 15.279713,
           "simple_yield_to_maturity_pct": 14.555488,
           "xirr_effective_pct": 15.796646,
-          "moex_yield_pct": 15.44,
+          "moex_yield_pct": 15.29,
           "spread_to_key_rate_simple_pp": 0.555488
         },
         "projected_cashflows": {
@@ -2957,7 +2957,7 @@
           ]
         },
         "warnings": [
-          "Calculated XIRR differs from MOEX YIELD by +0.36 pp; verify convention/cashflows",
+          "Calculated XIRR differs from MOEX YIELD by +0.51 pp; verify convention/cashflows",
           "10 future coupon(s) are not announced and were projected using scenario rate 15.35%"
         ]
       },
@@ -3593,19 +3593,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 100.9,
-        "OFFER": 101,
-        "LAST": 100.9,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 101,
         "MARKETPRICE": 100.31,
         "MARKETPRICE2": 100.68,
-        "YIELD": 16.34,
-        "LASTCHANGE": -0.1,
-        "NUMTRADES": 450,
-        "VALTODAY": 8374447,
-        "VOLTODAY": 8316,
-        "SYSTIME": "2026-09-15 22:16:06",
-        "UPDATETIME": "22:01:05",
-        "SEQNUM": 20260915221606
+        "YIELD": 16.27,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 459,
+        "VALTODAY": 8463327,
+        "VOLTODAY": 8404,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "ПГК 003Р-01",
@@ -3642,10 +3642,10 @@
         },
         "purchase": {
           "price_pct": 101.0,
-          "price_source": "OFFER",
-          "bid_pct": 100.9,
-          "ask_pct": 101.0,
-          "last_pct": 100.9,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 101.0,
           "face_value": 1000.0,
           "clean_price_rub": 1010.0,
           "accrued_interest_rub": 9.06,
@@ -3666,7 +3666,7 @@
           "current_coupon_yield_pct": 15.594059,
           "simple_yield_to_maturity_pct": 14.970068,
           "xirr_effective_pct": 16.273925,
-          "moex_yield_pct": 16.34,
+          "moex_yield_pct": 16.27,
           "spread_to_key_rate_simple_pp": 0.970068
         },
         "projected_cashflows": {
@@ -4438,19 +4438,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 100.7,
-        "OFFER": 100.75,
+        "BID": null,
+        "OFFER": null,
         "LAST": 100.75,
         "MARKETPRICE": 100.6,
         "MARKETPRICE2": 100.73,
         "YIELD": 15.41,
-        "LASTCHANGE": -0.05,
-        "NUMTRADES": 32,
-        "VALTODAY": 2479903,
-        "VOLTODAY": 2462,
-        "SYSTIME": "2026-09-15 22:15:44",
-        "UPDATETIME": "22:00:43",
-        "SEQNUM": 20260915221544
+        "LASTCHANGE": 0,
+        "NUMTRADES": 33,
+        "VALTODAY": 2530278,
+        "VOLTODAY": 2512,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "ВЭБ.РФ ПБО-002Р-50",
@@ -4489,9 +4489,9 @@
         },
         "purchase": {
           "price_pct": 100.75,
-          "price_source": "OFFER",
-          "bid_pct": 100.7,
-          "ask_pct": 100.75,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
           "last_pct": 100.75,
           "face_value": 1000.0,
           "clean_price_rub": 1007.5,
@@ -4731,19 +4731,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 98.61,
-        "OFFER": 98.84,
-        "LAST": 98.8,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 98.84,
         "MARKETPRICE": 98.52,
         "MARKETPRICE2": null,
-        "YIELD": 18.15,
-        "LASTCHANGE": 0.28,
-        "NUMTRADES": 36,
-        "VALTODAY": 401834,
-        "VOLTODAY": 407,
-        "SYSTIME": "2026-09-15 22:03:24",
-        "UPDATETIME": "21:48:24",
-        "SEQNUM": 20260915220324
+        "YIELD": 18.02,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 37,
+        "VALTODAY": 403811,
+        "VOLTODAY": 409,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "ММЦБ ПАО БО-П01-02",
@@ -4780,10 +4780,10 @@
         },
         "purchase": {
           "price_pct": 98.84,
-          "price_source": "OFFER",
-          "bid_pct": 98.61,
-          "ask_pct": 98.84,
-          "last_pct": 98.8,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 98.84,
           "face_value": 1000.0,
           "clean_price_rub": 988.4,
           "accrued_interest_rub": 19.18,
@@ -4804,7 +4804,7 @@
           "current_coupon_yield_pct": 14.164306,
           "simple_yield_to_maturity_pct": 17.078086,
           "xirr_effective_pct": 18.023616,
-          "moex_yield_pct": 18.15,
+          "moex_yield_pct": 18.02,
           "spread_to_key_rate_simple_pp": 3.078086
         },
         "projected_cashflows": {
@@ -5024,19 +5024,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 100.9,
-        "OFFER": 100.92,
-        "LAST": 100.9,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 100.92,
         "MARKETPRICE": 100.95,
         "MARKETPRICE2": 100.96,
-        "YIELD": 16.28,
-        "LASTCHANGE": -0.02,
-        "NUMTRADES": 27,
-        "VALTODAY": 789482,
-        "VOLTODAY": 782,
-        "SYSTIME": "2026-09-15 21:01:51",
-        "UPDATETIME": "20:46:51",
-        "SEQNUM": 20260915210151
+        "YIELD": 16.25,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 29,
+        "VALTODAY": 865172,
+        "VOLTODAY": 857,
+        "SYSTIME": "2026-09-15 23:50:37",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "iПРОМОМЕД ДМ 002P-02",
@@ -5075,10 +5075,10 @@
         },
         "purchase": {
           "price_pct": 100.92,
-          "price_source": "OFFER",
-          "bid_pct": 100.9,
-          "ask_pct": 100.92,
-          "last_pct": 100.9,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 100.92,
           "face_value": 1000.0,
           "clean_price_rub": 1009.2,
           "accrued_interest_rub": 3.68,
@@ -5099,7 +5099,7 @@
           "current_coupon_yield_pct": 16.646849,
           "simple_yield_to_maturity_pct": 15.451262,
           "xirr_effective_pct": 16.72939,
-          "moex_yield_pct": 16.28,
+          "moex_yield_pct": 16.25,
           "spread_to_key_rate_simple_pp": 1.451262
         },
         "projected_cashflows": {
@@ -5163,7 +5163,7 @@
           ]
         },
         "warnings": [
-          "Calculated XIRR differs from MOEX YIELD by +0.45 pp; verify convention/cashflows",
+          "Calculated XIRR differs from MOEX YIELD by +0.48 pp; verify convention/cashflows",
           "10 future coupon(s) are not announced and were projected using scenario rate 16.8%"
         ]
       },
@@ -5607,19 +5607,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 100.64,
-        "OFFER": 100.84,
-        "LAST": 100.64,
+        "BID": null,
+        "OFFER": null,
+        "LAST": 100.85,
         "MARKETPRICE": 100.71,
         "MARKETPRICE2": 100.9,
-        "YIELD": 16.39,
-        "LASTCHANGE": -0.21,
-        "NUMTRADES": 34,
-        "VALTODAY": 1560956,
-        "VOLTODAY": 1547,
-        "SYSTIME": "2026-09-15 22:10:44",
-        "UPDATETIME": "21:55:44",
-        "SEQNUM": 20260915221044
+        "YIELD": 16.2,
+        "LASTCHANGE": 0,
+        "NUMTRADES": 38,
+        "VALTODAY": 1588185,
+        "VOLTODAY": 1574,
+        "SYSTIME": "2026-09-15 23:50:38",
+        "UPDATETIME": "23:50:12",
+        "SEQNUM": 20260916000501
       },
       "description": {
         "NAME": "iПРОМОМЕД ДМ 002P-03",
@@ -5657,15 +5657,15 @@
           "estimated_future_coupon_count": 18
         },
         "purchase": {
-          "price_pct": 100.84,
-          "price_source": "OFFER",
-          "bid_pct": 100.64,
-          "ask_pct": 100.84,
-          "last_pct": 100.64,
+          "price_pct": 100.85,
+          "price_source": "LAST",
+          "bid_pct": null,
+          "ask_pct": null,
+          "last_pct": 100.85,
           "face_value": 1000.0,
-          "clean_price_rub": 1008.4,
+          "clean_price_rub": 1008.5,
           "accrued_interest_rub": 7.1,
-          "dirty_price_rub": 1015.5,
+          "dirty_price_rub": 1015.6,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -5674,16 +5674,16 @@
           "coupon_cash_rub": 239.671233,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1239.671233,
-          "profit_per_bond_rub": 224.171233,
-          "body_discount_premium_result_rub": -8.4,
-          "total_return_pct": 22.074961
+          "profit_per_bond_rub": 224.071233,
+          "body_discount_premium_result_rub": -8.5,
+          "total_return_pct": 22.062941
         },
         "yields": {
-          "current_coupon_yield_pct": 16.065054,
-          "simple_yield_to_maturity_pct": 15.376643,
-          "xirr_effective_pct": 16.699845,
-          "moex_yield_pct": 16.39,
-          "spread_to_key_rate_simple_pp": 1.376643
+          "current_coupon_yield_pct": 16.063461,
+          "simple_yield_to_maturity_pct": 15.36827,
+          "xirr_effective_pct": 16.690883,
+          "moex_yield_pct": 16.2,
+          "spread_to_key_rate_simple_pp": 1.36827
         },
         "projected_cashflows": {
           "coupons": [
@@ -5786,6 +5786,7 @@
           ]
         },
         "warnings": [
+          "Calculated XIRR differs from MOEX YIELD by +0.49 pp; verify convention/cashflows",
           "18 future coupon(s) are not announced and were projected using scenario rate 16.2%"
         ]
       },
