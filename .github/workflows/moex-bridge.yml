@@ -1,0 +1,42 @@
+name: MOEX bond snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 30 minutes on weekdays during a broad Moscow-market window.
+    - cron: "*/30 06-18 * * 1-5"
+  push:
+    paths:
+      - "moex-bridge/fetch_moex.py"
+      - "moex-bridge/watchlist.json"
+      - ".github/workflows/moex-bridge.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moex-bond-snapshot
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch official MOEX ISS data
+        run: python3 moex-bridge/fetch_moex.py
+
+      - name: Commit latest snapshot
+        run: |
+          if git diff --quiet -- moex-bridge/data/latest.json && git ls-files --error-unmatch moex-bridge/data/latest.json >/dev/null 2>&1; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moex-bridge/data/latest.json
+          git commit -m "Update MOEX bond snapshot"
+          git push
