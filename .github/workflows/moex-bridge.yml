@@ -1,4 +1,4 @@
-name: MOEX bond snapshot
+name: MOEX detailed bond snapshot
 
 on:
   workflow_dispatch:
@@ -7,7 +7,6 @@ on:
   push:
     paths:
       - "moex-bridge/fetch_moex.py"
-      - "moex-bridge/fetch_market.py"
       - "moex-bridge/watchlist.json"
       - ".github/workflows/moex-bridge.yml"
 
@@ -15,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: moex-bond-snapshot
+  group: moex-detailed-snapshot
   cancel-in-progress: true
 
 jobs:
@@ -25,24 +24,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Fetch official MOEX ISS data
-        run: |
-          python3 moex-bridge/fetch_market.py
-          python3 moex-bridge/fetch_moex.py
-
-      - name: Commit latest snapshots
+      - name: Fetch detailed MOEX ISS data
+        run: python3 moex-bridge/fetch_moex.py
+      - name: Commit detailed snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add moex-bridge/data/latest.json \
-                  moex-bridge/data/market.jsonl \
-                  moex-bridge/data/market_index.json \
-                  moex-bridge/data/market_meta.json
-          if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
-          git commit -m "Update MOEX bond snapshots"
+          git add moex-bridge/data/latest.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update detailed MOEX bond snapshot"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
