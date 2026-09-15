@@ -3,6 +3,7 @@ name: MOEX full bond market
 on:
   workflow_dispatch:
   schedule:
+    # Main MOEX bond boards, refreshed every 30 minutes on weekdays.
     - cron: "*/30 06-18 * * 1-5"
   push:
     paths:
