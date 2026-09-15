@@ -1,5 +1,9 @@
 {
   "name": "MOEX bond watchlist",
+  "assumptions": {
+    "key_rate_pct": 14.00,
+    "ruonia_pct": 13.57
+  },
   "secids": [
     "RU000A10CC24",
     "RU000A10D4D6",
