@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-15T18:37:46+00:00",
-  "generated_at_msk": "2026-09-15T21:37:46+03:00",
+  "generated_at_utc": "2026-09-15T18:52:54+00:00",
+  "generated_at_msk": "2026-09-15T21:52:54+03:00",
   "source": "MOEX ISS",
   "source_base": "https://iss.moex.com/iss",
   "note": "Public MOEX ISS data may be delayed. Calculated yields are transparent analytical fields, not exchange trading signals.",
@@ -8,7 +8,7 @@
     "key_rate_pct": 14.0,
     "ruonia_pct": 13.57
   },
-  "count": 8,
+  "count": 9,
   "bonds": [
     {
       "secid": "RU000A10CC24",
@@ -39,18 +39,18 @@
       },
       "market": {
         "BID": 98.98,
-        "OFFER": 98.99,
-        "LAST": 98.98,
+        "OFFER": 99.06,
+        "LAST": 99.07,
         "MARKETPRICE": 99.2,
         "MARKETPRICE2": 98.7,
-        "YIELD": 15.47,
-        "LASTCHANGE": -0.01,
-        "NUMTRADES": 617,
-        "VALTODAY": 89865277,
-        "VOLTODAY": 91046,
-        "SYSTIME": "2026-09-15 21:37:44",
-        "UPDATETIME": "21:22:43",
-        "SEQNUM": 20260915213744
+        "YIELD": 15.41,
+        "LASTCHANGE": 0.08,
+        "NUMTRADES": 625,
+        "VALTODAY": 90086070,
+        "VOLTODAY": 91269,
+        "SYSTIME": "2026-09-15 21:52:24",
+        "UPDATETIME": "21:37:24",
+        "SEQNUM": 20260915215224
       },
       "description": {
         "NAME": "РусГидро БО-002Р-07",
@@ -86,15 +86,15 @@
           "estimated_future_coupon_count": 0
         },
         "purchase": {
-          "price_pct": 98.99,
+          "price_pct": 99.06,
           "price_source": "OFFER",
           "bid_pct": 98.98,
-          "ask_pct": 98.99,
-          "last_pct": 98.98,
+          "ask_pct": 99.06,
+          "last_pct": 99.07,
           "face_value": 1000.0,
-          "clean_price_rub": 989.9,
+          "clean_price_rub": 990.6,
           "accrued_interest_rub": 4.17,
-          "dirty_price_rub": 994.07,
+          "dirty_price_rub": 994.77,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -103,16 +103,16 @@
           "coupon_cash_rub": 261.74,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1261.74,
-          "profit_per_bond_rub": 267.67,
-          "body_discount_premium_result_rub": 10.1,
-          "total_return_pct": 26.926675
+          "profit_per_bond_rub": 266.97,
+          "body_discount_premium_result_rub": 9.4,
+          "total_return_pct": 26.837359
         },
         "yields": {
-          "current_coupon_yield_pct": 13.991312,
-          "simple_yield_to_maturity_pct": 14.474575,
-          "xirr_effective_pct": 15.46762,
-          "moex_yield_pct": 15.47,
-          "spread_to_key_rate_simple_pp": 0.474575
+          "current_coupon_yield_pct": 13.981425,
+          "simple_yield_to_maturity_pct": 14.426563,
+          "xirr_effective_pct": 15.418141,
+          "moex_yield_pct": 15.41,
+          "spread_to_key_rate_simple_pp": 0.426563
         },
         "projected_cashflows": {
           "coupons": [
@@ -883,9 +883,9 @@
         "NUMTRADES": 68,
         "VALTODAY": 376572,
         "VOLTODAY": 367,
-        "SYSTIME": "2026-09-15 21:34:51",
-        "UPDATETIME": "21:19:51",
-        "SEQNUM": 20260915213451
+        "SYSTIME": "2026-09-15 21:50:30",
+        "UPDATETIME": "21:35:30",
+        "SEQNUM": 20260915215030
       },
       "description": {
         "NAME": "Минфин Амурской обл. 31002",
@@ -1180,9 +1180,9 @@
         "NUMTRADES": 53,
         "VALTODAY": 1886794,
         "VOLTODAY": 1887,
-        "SYSTIME": "2026-09-15 21:37:02",
-        "UPDATETIME": "21:22:01",
-        "SEQNUM": 20260915213702
+        "SYSTIME": "2026-09-15 21:52:41",
+        "UPDATETIME": "21:37:41",
+        "SEQNUM": 20260915215241
       },
       "description": {
         "NAME": "Ростелеком ПАО 001P-07R",
@@ -1526,19 +1526,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 106.37,
-        "OFFER": 106.42,
-        "LAST": 106.43,
+        "BID": 106.42,
+        "OFFER": 106.43,
+        "LAST": 106.42,
         "MARKETPRICE": 106.43,
         "MARKETPRICE2": 106.49,
-        "YIELD": 17.68,
-        "LASTCHANGE": 0.06,
-        "NUMTRADES": 935,
-        "VALTODAY": 17201632,
-        "VOLTODAY": 16155,
-        "SYSTIME": "2026-09-15 21:37:01",
-        "UPDATETIME": "21:22:01",
-        "SEQNUM": 20260915213701
+        "YIELD": 17.69,
+        "LASTCHANGE": -0.01,
+        "NUMTRADES": 936,
+        "VALTODAY": 17203761,
+        "VOLTODAY": 16157,
+        "SYSTIME": "2026-09-15 21:52:31",
+        "UPDATETIME": "21:37:31",
+        "SEQNUM": 20260915215231
       },
       "description": {
         "NAME": "Селигдар 001Р-03",
@@ -1574,15 +1574,15 @@
           "estimated_future_coupon_count": 0
         },
         "purchase": {
-          "price_pct": 106.42,
+          "price_pct": 106.43,
           "price_source": "OFFER",
-          "bid_pct": 106.37,
-          "ask_pct": 106.42,
-          "last_pct": 106.43,
+          "bid_pct": 106.42,
+          "ask_pct": 106.43,
+          "last_pct": 106.42,
           "face_value": 1000.0,
-          "clean_price_rub": 1064.2,
+          "clean_price_rub": 1064.3,
           "accrued_interest_rub": 10.19,
-          "dirty_price_rub": 1074.39,
+          "dirty_price_rub": 1074.49,
           "settlement_date": "2026-09-16"
         },
         "maturity": {
@@ -1591,16 +1591,16 @@
           "coupon_cash_rub": 248.43,
           "principal_cash_rub": 1000.0,
           "total_future_cash_rub": 1248.43,
-          "profit_per_bond_rub": 174.04,
-          "body_discount_premium_result_rub": -64.2,
-          "total_return_pct": 16.198959
+          "profit_per_bond_rub": 173.94,
+          "body_discount_premium_result_rub": -64.3,
+          "total_return_pct": 16.188145
         },
         "yields": {
-          "current_coupon_yield_pct": 21.847397,
-          "simple_yield_to_maturity_pct": 15.809145,
-          "xirr_effective_pct": 17.690858,
-          "moex_yield_pct": 17.68,
-          "spread_to_key_rate_simple_pp": 1.809145
+          "current_coupon_yield_pct": 21.845344,
+          "simple_yield_to_maturity_pct": 15.798591,
+          "xirr_effective_pct": 17.678909,
+          "moex_yield_pct": 17.69,
+          "spread_to_key_rate_simple_pp": 1.798591
         },
         "projected_cashflows": {
           "coupons": [
@@ -2225,9 +2225,9 @@
         "NUMTRADES": 234,
         "VALTODAY": 7621842,
         "VOLTODAY": 7511,
-        "SYSTIME": "2026-09-15 21:37:01",
-        "UPDATETIME": "21:22:01",
-        "SEQNUM": 20260915213701
+        "SYSTIME": "2026-09-15 21:45:11",
+        "UPDATETIME": "21:30:11",
+        "SEQNUM": 20260915214511
       },
       "description": {
         "NAME": "Селигдар 001Р-07",
@@ -2823,9 +2823,9 @@
         "NUMTRADES": 105,
         "VALTODAY": 1306482,
         "VOLTODAY": 1301,
-        "SYSTIME": "2026-09-15 21:37:01",
-        "UPDATETIME": "21:22:01",
-        "SEQNUM": 20260915213701
+        "SYSTIME": "2026-09-15 21:41:02",
+        "UPDATETIME": "21:26:01",
+        "SEQNUM": 20260915214102
       },
       "description": {
         "NAME": "ГруппаЧеркизово БО-001Р-07",
@@ -3595,17 +3595,17 @@
       "market": {
         "BID": 100.85,
         "OFFER": 100.99,
-        "LAST": 100.98,
+        "LAST": 100.99,
         "MARKETPRICE": 100.31,
         "MARKETPRICE2": 100.68,
-        "YIELD": 16.29,
+        "YIELD": 16.28,
         "LASTCHANGE": 0.14,
-        "NUMTRADES": 445,
-        "VALTODAY": 8361320,
-        "VOLTODAY": 8303,
-        "SYSTIME": "2026-09-15 21:37:01",
-        "UPDATETIME": "21:22:01",
-        "SEQNUM": 20260915213701
+        "NUMTRADES": 447,
+        "VALTODAY": 8363338,
+        "VOLTODAY": 8305,
+        "SYSTIME": "2026-09-15 21:51:52",
+        "UPDATETIME": "21:36:51",
+        "SEQNUM": 20260915215152
       },
       "description": {
         "NAME": "ПГК 003Р-01",
@@ -3645,7 +3645,7 @@
           "price_source": "OFFER",
           "bid_pct": 100.85,
           "ask_pct": 100.99,
-          "last_pct": 100.98,
+          "last_pct": 100.99,
           "face_value": 1000.0,
           "clean_price_rub": 1009.9,
           "accrued_interest_rub": 9.06,
@@ -3666,7 +3666,7 @@
           "current_coupon_yield_pct": 15.595604,
           "simple_yield_to_maturity_pct": 14.976451,
           "xirr_effective_pct": 16.280588,
-          "moex_yield_pct": 16.29,
+          "moex_yield_pct": 16.28,
           "spread_to_key_rate_simple_pp": 0.976451
         },
         "projected_cashflows": {
@@ -4448,9 +4448,9 @@
         "NUMTRADES": 32,
         "VALTODAY": 2479903,
         "VOLTODAY": 2462,
-        "SYSTIME": "2026-09-15 21:36:06",
-        "UPDATETIME": "21:21:06",
-        "SEQNUM": 20260915213606
+        "SYSTIME": "2026-09-15 21:46:43",
+        "UPDATETIME": "21:31:43",
+        "SEQNUM": 20260915214643
       },
       "description": {
         "NAME": "ВЭБ.РФ ПБО-002Р-50",
@@ -4701,6 +4701,299 @@
         "quote": "https://iss.moex.com/iss/engines/stock/markets/bonds/boards/TQCB/securities/RU000A10B8D9.json?iss.meta=off",
         "description": "https://iss.moex.com/iss/securities/RU000A10B8D9.json?iss.meta=off",
         "bondization": "https://iss.moex.com/iss/securities/RU000A10B8D9/bondization.json?limit=400&iss.meta=off"
+      }
+    },
+    {
+      "secid": "RU000A105054",
+      "ok": true,
+      "board": "TQCB",
+      "security": {
+        "SECID": "RU000A105054",
+        "SHORTNAME": "ММЦБ П01-2",
+        "SECNAME": "ММЦБ ПАО БО-П01-02",
+        "ISIN": "RU000A105054",
+        "REGNUMBER": "4B02-02-85932-H-001P",
+        "FACEVALUE": 1000,
+        "FACEUNIT": "SUR",
+        "ACCRUEDINT": 19.18,
+        "COUPONPERCENT": 14.0,
+        "COUPONVALUE": 69.81,
+        "NEXTCOUPON": "2027-01-26",
+        "MATDATE": "2027-01-26",
+        "OFFERDATE": null,
+        "BUYBACKPRICE": null,
+        "LOTVALUE": 1000,
+        "LOTSIZE": 1,
+        "LISTLEVEL": 3,
+        "ISSUESIZE": 200000,
+        "PREVPRICE": 98.93,
+        "PREVLEGALCLOSEPRICE": 98.81,
+        "SETTLEDATE": "2026-09-16"
+      },
+      "market": {
+        "BID": 98.61,
+        "OFFER": 98.84,
+        "LAST": 98.8,
+        "MARKETPRICE": 98.52,
+        "MARKETPRICE2": null,
+        "YIELD": 18.15,
+        "LASTCHANGE": 0.28,
+        "NUMTRADES": 36,
+        "VALTODAY": 401834,
+        "VOLTODAY": 407,
+        "SYSTIME": "2026-09-15 21:51:45",
+        "UPDATETIME": "21:36:44",
+        "SEQNUM": 20260915215145
+      },
+      "description": {
+        "NAME": "ММЦБ ПАО БО-П01-02",
+        "SHORTNAME": "ММЦБ П01-2",
+        "ISIN": "RU000A105054",
+        "REGNUMBER": "4B02-02-85932-H-001P",
+        "ISSUESIZE": "200000",
+        "FACEVALUE": "1000",
+        "FACEUNIT": "SUR",
+        "MATDATE": "2027-01-26",
+        "COUPONFREQUENCY": "2",
+        "ISQUALIFIEDINVESTORS": "0",
+        "LISTLEVEL": "3"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 14.0
+        },
+        "coupon": {
+          "formula": "фикс 14%",
+          "is_floater": false,
+          "current_published_rate_pct": 14.0,
+          "projected_rate_pct": 14.0,
+          "estimated_future_coupon_count": 0
+        },
+        "purchase": {
+          "price_pct": 98.84,
+          "price_source": "OFFER",
+          "bid_pct": 98.61,
+          "ask_pct": 98.84,
+          "last_pct": 98.8,
+          "face_value": 1000.0,
+          "clean_price_rub": 988.4,
+          "accrued_interest_rub": 19.18,
+          "dirty_price_rub": 1007.58,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-01-26",
+          "days": 132,
+          "coupon_cash_rub": 69.81,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1069.81,
+          "profit_per_bond_rub": 62.23,
+          "body_discount_premium_result_rub": 11.6,
+          "total_return_pct": 6.176185
+        },
+        "yields": {
+          "current_coupon_yield_pct": 14.164306,
+          "simple_yield_to_maturity_pct": 17.078086,
+          "xirr_effective_pct": 18.023616,
+          "moex_yield_pct": 18.15,
+          "spread_to_key_rate_simple_pp": 3.078086
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2027-01-26",
+              "amount": 69.81,
+              "estimated": false
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-01-26",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": []
+      },
+      "cashflows": {
+        "coupons": [
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2023-01-31",
+            "recorddate": "2023-01-30",
+            "startdate": "2022-08-02",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2023-08-01",
+            "recorddate": "2023-07-31",
+            "startdate": "2023-01-31",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2024-01-30",
+            "recorddate": "2024-01-29",
+            "startdate": "2023-08-01",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2024-07-30",
+            "recorddate": "2024-07-29",
+            "startdate": "2024-01-30",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2025-01-28",
+            "recorddate": "2025-01-27",
+            "startdate": "2024-07-30",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2025-07-29",
+            "recorddate": "2025-07-28",
+            "startdate": "2025-01-28",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2026-01-27",
+            "recorddate": "2026-01-26",
+            "startdate": "2025-07-29",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2026-07-28",
+            "recorddate": "2026-07-27",
+            "startdate": "2026-01-27",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          },
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "coupondate": "2027-01-26",
+            "recorddate": "2027-01-25",
+            "startdate": "2026-07-28",
+            "initialfacevalue": 1000,
+            "facevalue": 1000,
+            "faceunit": "RUB",
+            "value": 69.81,
+            "valueprc": 14.0,
+            "value_rub": 69.81,
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          }
+        ],
+        "amortizations": [
+          {
+            "isin": "RU000A105054",
+            "name": "ММЦБ ПАО БО-П01-02",
+            "issuevalue": 200000000,
+            "amortdate": "2027-01-26",
+            "facevalue": 1000,
+            "initialfacevalue": 1000,
+            "faceunit": "RUB",
+            "valueprc": 100,
+            "value": 1000,
+            "value_rub": 1000,
+            "data_source": "maturity",
+            "secid": "RU000A105054",
+            "primary_boardid": "TQCB"
+          }
+        ],
+        "offers": []
+      },
+      "sources": {
+        "quote": "https://iss.moex.com/iss/engines/stock/markets/bonds/boards/TQCB/securities/RU000A105054.json?iss.meta=off",
+        "description": "https://iss.moex.com/iss/securities/RU000A105054.json?iss.meta=off",
+        "bondization": "https://iss.moex.com/iss/securities/RU000A105054/bondization.json?limit=400&iss.meta=off"
       }
     }
   ]
