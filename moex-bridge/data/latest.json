@@ -1,9 +1,13 @@
 {
-  "generated_at_utc": "2026-09-15T18:16:57+00:00",
-  "generated_at_msk": "2026-09-15T21:16:57+03:00",
+  "generated_at_utc": "2026-09-15T18:26:08+00:00",
+  "generated_at_msk": "2026-09-15T21:26:08+03:00",
   "source": "MOEX ISS",
   "source_base": "https://iss.moex.com/iss",
-  "note": "Public MOEX ISS data may be delayed. This snapshot is read-only market data, not a trading feed.",
+  "note": "Public MOEX ISS data may be delayed. Calculated yields are transparent analytical fields, not exchange trading signals.",
+  "assumptions": {
+    "key_rate_pct": 14.0,
+    "ruonia_pct": 13.57
+  },
   "count": 8,
   "bonds": [
     {
@@ -34,19 +38,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 98.96,
+        "BID": 98.97,
         "OFFER": 98.99,
-        "LAST": 98.97,
+        "LAST": 98.99,
         "MARKETPRICE": 99.2,
         "MARKETPRICE2": 98.7,
-        "YIELD": 15.48,
-        "LASTCHANGE": 0.01,
-        "NUMTRADES": 609,
-        "VALTODAY": 89786085,
-        "VOLTODAY": 90966,
-        "SYSTIME": "2026-09-15 21:16:58",
-        "UPDATETIME": "21:01:58",
-        "SEQNUM": 20260915211658
+        "YIELD": 15.47,
+        "LASTCHANGE": 0.02,
+        "NUMTRADES": 610,
+        "VALTODAY": 89787075,
+        "VOLTODAY": 90967,
+        "SYSTIME": "2026-09-15 21:26:01",
+        "UPDATETIME": "21:11:01",
+        "SEQNUM": 20260915212601
       },
       "description": {
         "NAME": "РусГидро БО-002Р-07",
@@ -60,6 +64,182 @@
         "COUPONFREQUENCY": "12",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "2"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 13.85
+        },
+        "coupon": {
+          "formula": "фикс 13.85%",
+          "is_floater": false,
+          "current_published_rate_pct": 13.85,
+          "projected_rate_pct": 13.85,
+          "estimated_future_coupon_count": 0
+        },
+        "purchase": {
+          "price_pct": 98.99,
+          "price_source": "OFFER",
+          "bid_pct": 98.97,
+          "ask_pct": 98.99,
+          "last_pct": 98.99,
+          "face_value": 1000.0,
+          "clean_price_rub": 989.9,
+          "accrued_interest_rub": 4.17,
+          "dirty_price_rub": 994.07,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2028-07-26",
+          "days": 679,
+          "coupon_cash_rub": 261.74,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1261.74,
+          "profit_per_bond_rub": 267.67,
+          "body_discount_premium_result_rub": 10.1,
+          "total_return_pct": 26.926675
+        },
+        "yields": {
+          "current_coupon_yield_pct": 13.991312,
+          "simple_yield_to_maturity_pct": 14.474575,
+          "xirr_effective_pct": 15.46762,
+          "moex_yield_pct": 15.47,
+          "spread_to_key_rate_simple_pp": 0.474575
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-10-05",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2026-11-04",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2026-12-04",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-01-03",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-02-02",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-03-04",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-04-03",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-05-03",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-06-02",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-07-02",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-08-01",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-08-31",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-09-30",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-10-30",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-11-29",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2027-12-29",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-01-28",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-02-27",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-03-28",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-04-27",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-05-27",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-06-26",
+              "amount": 11.38,
+              "estimated": false
+            },
+            {
+              "date": "2028-07-26",
+              "amount": 11.38,
+              "estimated": false
+            }
+          ],
+          "principal": [
+            {
+              "date": "2028-07-26",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": []
       },
       "cashflows": {
         "coupons": [
@@ -693,7 +873,7 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 102.53,
+        "BID": 102.52,
         "OFFER": 102.62,
         "LAST": 102.5,
         "MARKETPRICE": 102.41,
@@ -703,9 +883,9 @@
         "NUMTRADES": 68,
         "VALTODAY": 376572,
         "VOLTODAY": 367,
-        "SYSTIME": "2026-09-15 21:16:42",
-        "UPDATETIME": "21:01:42",
-        "SEQNUM": 20260915211642
+        "SYSTIME": "2026-09-15 21:24:18",
+        "UPDATETIME": "21:09:17",
+        "SEQNUM": 20260915212418
       },
       "description": {
         "NAME": "Минфин Амурской обл. 31002",
@@ -719,6 +899,92 @@
         "COUPONFREQUENCY": "4",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "1"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 16.75
+        },
+        "coupon": {
+          "formula": "фикс 16.75%",
+          "is_floater": false,
+          "current_published_rate_pct": 16.75,
+          "projected_rate_pct": 16.75,
+          "estimated_future_coupon_count": 0
+        },
+        "purchase": {
+          "price_pct": 102.62,
+          "price_source": "OFFER",
+          "bid_pct": 102.52,
+          "ask_pct": 102.62,
+          "last_pct": 102.5,
+          "face_value": 1000.0,
+          "clean_price_rub": 1026.2,
+          "accrued_interest_rub": 27.99,
+          "dirty_price_rub": 1054.19,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-10-17",
+          "days": 396,
+          "coupon_cash_rub": 209.72,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1209.72,
+          "profit_per_bond_rub": 155.53,
+          "body_discount_premium_result_rub": -26.2,
+          "total_return_pct": 14.753507
+        },
+        "yields": {
+          "current_coupon_yield_pct": 16.322354,
+          "simple_yield_to_maturity_pct": 13.598561,
+          "xirr_effective_pct": 14.849128,
+          "moex_yield_pct": 14.98,
+          "spread_to_key_rate_simple_pp": -0.401439
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-10-16",
+              "amount": 41.76,
+              "estimated": false
+            },
+            {
+              "date": "2027-01-15",
+              "amount": 41.76,
+              "estimated": false
+            },
+            {
+              "date": "2027-04-16",
+              "amount": 41.76,
+              "estimated": false
+            },
+            {
+              "date": "2027-07-16",
+              "amount": 41.76,
+              "estimated": false
+            },
+            {
+              "date": "2027-10-17",
+              "amount": 42.68,
+              "estimated": false
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-10-17",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": []
       },
       "cashflows": {
         "coupons": [
@@ -914,9 +1180,9 @@
         "NUMTRADES": 52,
         "VALTODAY": 1880783,
         "VOLTODAY": 1881,
-        "SYSTIME": "2026-09-15 21:16:25",
-        "UPDATETIME": "21:01:25",
-        "SEQNUM": 20260915211625
+        "SYSTIME": "2026-09-15 21:23:02",
+        "UPDATETIME": "21:08:02",
+        "SEQNUM": 20260915212302
       },
       "description": {
         "NAME": "Ростелеком ПАО 001P-07R",
@@ -932,6 +1198,85 @@
         "COUPON_BENCHMARK_SPREAD": "1.20",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "2"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 15.2
+        },
+        "coupon": {
+          "formula": "КС + 1.20 п.п.",
+          "is_floater": true,
+          "current_published_rate_pct": 15.2,
+          "projected_rate_pct": 15.2,
+          "estimated_future_coupon_count": 3
+        },
+        "purchase": {
+          "price_pct": 100.18,
+          "price_source": "OFFER",
+          "bid_pct": 99.91,
+          "ask_pct": 100.18,
+          "last_pct": 100.19,
+          "face_value": 1000.0,
+          "clean_price_rub": 1001.8,
+          "accrued_interest_rub": 11.24,
+          "dirty_price_rub": 1013.04,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-05-20",
+          "days": 246,
+          "coupon_cash_rub": 113.687671,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1113.687671,
+          "profit_per_bond_rub": 100.647671,
+          "body_discount_premium_result_rub": -1.8,
+          "total_return_pct": 9.935212
+        },
+        "yields": {
+          "current_coupon_yield_pct": 15.172689,
+          "simple_yield_to_maturity_pct": 14.74127,
+          "xirr_effective_pct": 15.745503,
+          "moex_yield_pct": 15.25,
+          "spread_to_key_rate_simple_pp": 0.74127
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-11-19",
+              "amount": 37.89589,
+              "estimated": true
+            },
+            {
+              "date": "2027-02-18",
+              "amount": 37.89589,
+              "estimated": true
+            },
+            {
+              "date": "2027-05-20",
+              "amount": 37.89589,
+              "estimated": true
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-05-20",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": [
+          "Calculated XIRR differs from MOEX YIELD by +0.50 pp; verify convention/cashflows",
+          "3 future coupon(s) are not announced and were projected using scenario rate 15.2%"
+        ]
       },
       "cashflows": {
         "coupons": [
@@ -1188,12 +1533,12 @@
         "MARKETPRICE2": 106.49,
         "YIELD": 17.68,
         "LASTCHANGE": 0.05,
-        "NUMTRADES": 925,
-        "VALTODAY": 17076103,
-        "VOLTODAY": 16037,
-        "SYSTIME": "2026-09-15 21:17:01",
-        "UPDATETIME": "21:02:01",
-        "SEQNUM": 20260915211701
+        "NUMTRADES": 926,
+        "VALTODAY": 17077168,
+        "VOLTODAY": 16038,
+        "SYSTIME": "2026-09-15 21:26:01",
+        "UPDATETIME": "21:11:01",
+        "SEQNUM": 20260915212601
       },
       "description": {
         "NAME": "Селигдар 001Р-03",
@@ -1207,6 +1552,132 @@
         "COUPONFREQUENCY": "12",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "2"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 23.25
+        },
+        "coupon": {
+          "formula": "фикс 23.25%",
+          "is_floater": false,
+          "current_published_rate_pct": 23.25,
+          "projected_rate_pct": 23.25,
+          "estimated_future_coupon_count": 0
+        },
+        "purchase": {
+          "price_pct": 106.43,
+          "price_source": "OFFER",
+          "bid_pct": 106.38,
+          "ask_pct": 106.43,
+          "last_pct": 106.43,
+          "face_value": 1000.0,
+          "clean_price_rub": 1064.3,
+          "accrued_interest_rub": 10.19,
+          "dirty_price_rub": 1074.49,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-09-25",
+          "days": 374,
+          "coupon_cash_rub": 248.43,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1248.43,
+          "profit_per_bond_rub": 173.94,
+          "body_discount_premium_result_rub": -64.3,
+          "total_return_pct": 16.188145
+        },
+        "yields": {
+          "current_coupon_yield_pct": 21.845344,
+          "simple_yield_to_maturity_pct": 15.798591,
+          "xirr_effective_pct": 17.678909,
+          "moex_yield_pct": 17.68,
+          "spread_to_key_rate_simple_pp": 1.798591
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-09-30",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2026-10-30",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2026-11-29",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2026-12-29",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-01-28",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-02-27",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-03-29",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-04-28",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-05-28",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-06-27",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-07-27",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-08-26",
+              "amount": 19.11,
+              "estimated": false
+            },
+            {
+              "date": "2027-09-25",
+              "amount": 19.11,
+              "estimated": false
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-09-25",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": []
       },
       "cashflows": {
         "coupons": [
@@ -1744,19 +2215,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 101.5,
+        "BID": 101.43,
         "OFFER": 101.51,
-        "LAST": 101.51,
+        "LAST": 101.43,
         "MARKETPRICE": 101.25,
         "MARKETPRICE2": 101.46,
-        "YIELD": 17.7,
-        "LASTCHANGE": 0.08,
-        "NUMTRADES": 230,
-        "VALTODAY": 7411874,
-        "VOLTODAY": 7304,
-        "SYSTIME": "2026-09-15 21:16:52",
-        "UPDATETIME": "21:01:52",
-        "SEQNUM": 20260915211652
+        "YIELD": 17.79,
+        "LASTCHANGE": -0.07,
+        "NUMTRADES": 233,
+        "VALTODAY": 7620827,
+        "VOLTODAY": 7510,
+        "SYSTIME": "2026-09-15 21:26:01",
+        "UPDATETIME": "21:11:01",
+        "SEQNUM": 20260915212601
       },
       "description": {
         "NAME": "Селигдар 001Р-07",
@@ -1772,6 +2243,135 @@
         "COUPON_BENCHMARK_SPREAD": "4.50",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "2"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 18.5
+        },
+        "coupon": {
+          "formula": "КС + 4.50 п.п.",
+          "is_floater": true,
+          "current_published_rate_pct": 18.5,
+          "projected_rate_pct": 18.5,
+          "estimated_future_coupon_count": 13
+        },
+        "purchase": {
+          "price_pct": 101.51,
+          "price_source": "OFFER",
+          "bid_pct": 101.43,
+          "ask_pct": 101.51,
+          "last_pct": 101.43,
+          "face_value": 1000.0,
+          "clean_price_rub": 1015.1,
+          "accrued_interest_rub": 3.04,
+          "dirty_price_rub": 1018.14,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-10-05",
+          "days": 384,
+          "coupon_cash_rub": 197.671233,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1197.671233,
+          "profit_per_bond_rub": 179.531233,
+          "body_discount_premium_result_rub": -15.1,
+          "total_return_pct": 17.633256
+        },
+        "yields": {
+          "current_coupon_yield_pct": 18.224805,
+          "simple_yield_to_maturity_pct": 16.760777,
+          "xirr_effective_pct": 18.299579,
+          "moex_yield_pct": 17.79,
+          "spread_to_key_rate_simple_pp": 2.760777
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-10-10",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2026-11-09",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2026-12-09",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-01-08",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-02-07",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-03-09",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-04-08",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-05-08",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-06-07",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-07-07",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-08-06",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-09-05",
+              "amount": 15.205479,
+              "estimated": true
+            },
+            {
+              "date": "2027-10-05",
+              "amount": 15.205479,
+              "estimated": true
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-10-05",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": [
+          "Calculated XIRR differs from MOEX YIELD by +0.51 pp; verify convention/cashflows",
+          "13 future coupon(s) are not announced and were projected using scenario rate 18.5%"
+        ]
       },
       "cashflows": {
         "coupons": [
@@ -2223,9 +2823,9 @@
         "NUMTRADES": 103,
         "VALTODAY": 1303468,
         "VOLTODAY": 1298,
-        "SYSTIME": "2026-09-15 20:50:12",
-        "UPDATETIME": "20:35:12",
-        "SEQNUM": 20260915205012
+        "SYSTIME": "2026-09-15 21:25:25",
+        "UPDATETIME": "21:10:25",
+        "SEQNUM": 20260915212525
       },
       "description": {
         "NAME": "ГруппаЧеркизово БО-001Р-07",
@@ -2241,6 +2841,125 @@
         "COUPON_BENCHMARK_SPREAD": "1.35",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "1"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 15.35
+        },
+        "coupon": {
+          "formula": "КС + 1.35 п.п.",
+          "is_floater": true,
+          "current_published_rate_pct": 15.35,
+          "projected_rate_pct": 15.35,
+          "estimated_future_coupon_count": 10
+        },
+        "purchase": {
+          "price_pct": 100.46,
+          "price_source": "OFFER",
+          "bid_pct": 100.36,
+          "ask_pct": 100.46,
+          "last_pct": 100.46,
+          "face_value": 1000.0,
+          "clean_price_rub": 1004.6,
+          "accrued_interest_rub": 11.78,
+          "dirty_price_rub": 1016.38,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-07-15",
+          "days": 302,
+          "coupon_cash_rub": 138.784384,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1138.784384,
+          "profit_per_bond_rub": 122.404384,
+          "body_discount_premium_result_rub": -4.6,
+          "total_return_pct": 12.043171
+        },
+        "yields": {
+          "current_coupon_yield_pct": 15.279713,
+          "simple_yield_to_maturity_pct": 14.555488,
+          "xirr_effective_pct": 15.796646,
+          "moex_yield_pct": 15.29,
+          "spread_to_key_rate_simple_pp": 0.555488
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-09-18",
+              "amount": 12.62,
+              "estimated": false
+            },
+            {
+              "date": "2026-10-18",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2026-11-17",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2026-12-17",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-01-16",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-02-15",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-03-17",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-04-16",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-05-16",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-06-15",
+              "amount": 12.616438,
+              "estimated": true
+            },
+            {
+              "date": "2027-07-15",
+              "amount": 12.616438,
+              "estimated": true
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-07-15",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": [
+          "Calculated XIRR differs from MOEX YIELD by +0.51 pp; verify convention/cashflows",
+          "10 future coupon(s) are not announced and were projected using scenario rate 15.35%"
+        ]
       },
       "cashflows": {
         "coupons": [
@@ -2874,19 +3593,19 @@
         "SETTLEDATE": "2026-09-16"
       },
       "market": {
-        "BID": 100.82,
+        "BID": 100.84,
         "OFFER": 101,
-        "LAST": 101,
+        "LAST": 100.84,
         "MARKETPRICE": 100.31,
         "MARKETPRICE2": 100.68,
-        "YIELD": 16.27,
-        "LASTCHANGE": 0.01,
-        "NUMTRADES": 441,
-        "VALTODAY": 8357283,
-        "VOLTODAY": 8299,
-        "SYSTIME": "2026-09-15 21:17:02",
-        "UPDATETIME": "21:02:01",
-        "SEQNUM": 20260915211702
+        "YIELD": 16.38,
+        "LASTCHANGE": -0.16,
+        "NUMTRADES": 444,
+        "VALTODAY": 8360310,
+        "VOLTODAY": 8302,
+        "SYSTIME": "2026-09-15 21:26:23",
+        "UPDATETIME": "21:11:23",
+        "SEQNUM": 20260915212623
       },
       "description": {
         "NAME": "ПГК 003Р-01",
@@ -2900,6 +3619,192 @@
         "COUPONFREQUENCY": "12",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "2"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 15.75
+        },
+        "coupon": {
+          "formula": "фикс 15.75%",
+          "is_floater": false,
+          "current_published_rate_pct": 15.75,
+          "projected_rate_pct": 15.75,
+          "estimated_future_coupon_count": 0
+        },
+        "purchase": {
+          "price_pct": 101.0,
+          "price_source": "OFFER",
+          "bid_pct": 100.84,
+          "ask_pct": 101.0,
+          "last_pct": 100.84,
+          "face_value": 1000.0,
+          "clean_price_rub": 1010.0,
+          "accrued_interest_rub": 9.06,
+          "dirty_price_rub": 1019.06,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2028-09-14",
+          "days": 729,
+          "coupon_cash_rub": 323.75,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1323.75,
+          "profit_per_bond_rub": 304.69,
+          "body_discount_premium_result_rub": -10.0,
+          "total_return_pct": 29.899123
+        },
+        "yields": {
+          "current_coupon_yield_pct": 15.594059,
+          "simple_yield_to_maturity_pct": 14.970068,
+          "xirr_effective_pct": 16.273925,
+          "moex_yield_pct": 16.38,
+          "spread_to_key_rate_simple_pp": 0.970068
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-09-25",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2026-10-25",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2026-11-24",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2026-12-24",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-01-23",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-02-22",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-03-24",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-04-23",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-05-23",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-06-22",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-07-22",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-08-21",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-09-20",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-10-20",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-11-19",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2027-12-19",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-01-18",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-02-17",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-03-18",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-04-17",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-05-17",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-06-16",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-07-16",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-08-15",
+              "amount": 12.95,
+              "estimated": false
+            },
+            {
+              "date": "2028-09-14",
+              "amount": 12.95,
+              "estimated": false
+            }
+          ],
+          "principal": [
+            {
+              "date": "2028-09-14",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": []
       },
       "cashflows": {
         "coupons": [
@@ -3543,9 +4448,9 @@
         "NUMTRADES": 32,
         "VALTODAY": 2479903,
         "VOLTODAY": 2462,
-        "SYSTIME": "2026-09-15 21:14:55",
-        "UPDATETIME": "20:59:54",
-        "SEQNUM": 20260915211455
+        "SYSTIME": "2026-09-15 21:26:31",
+        "UPDATETIME": "21:11:31",
+        "SEQNUM": 20260915212631
       },
       "description": {
         "NAME": "ВЭБ.РФ ПБО-002Р-50",
@@ -3561,6 +4466,86 @@
         "COUPON_BENCHMARK_SPREAD": "2.30",
         "ISQUALIFIEDINVESTORS": "0",
         "LISTLEVEL": "3"
+      },
+      "metrics": {
+        "ok": true,
+        "definitions": {
+          "current_coupon_yield_pct": "current published annual coupon divided by clean purchase price",
+          "simple_yield_to_maturity_pct": "(all future cashflows - dirty purchase price) / dirty purchase price * 365 / days to maturity; no reinvestment",
+          "xirr_effective_pct": "annual effective IRR of dated cashflows",
+          "spread_to_key_rate_simple_pp": "simple yield to maturity minus configured key-rate scenario"
+        },
+        "assumptions": {
+          "key_rate_pct": 14.0,
+          "ruonia_pct": 13.57,
+          "unannounced_coupon_projection_pct": 15.87
+        },
+        "coupon": {
+          "formula": "RUONIA_IND≈RUONIA + 2.30 п.п.",
+          "is_floater": true,
+          "current_published_rate_pct": 15.87,
+          "projected_rate_pct": 15.87,
+          "estimated_future_coupon_count": 3
+        },
+        "purchase": {
+          "price_pct": 100.75,
+          "price_source": "OFFER",
+          "bid_pct": 100.7,
+          "ask_pct": 100.75,
+          "last_pct": 100.75,
+          "face_value": 1000.0,
+          "clean_price_rub": 1007.5,
+          "accrued_interest_rub": 32.18,
+          "dirty_price_rub": 1039.68,
+          "settlement_date": "2026-09-16"
+        },
+        "maturity": {
+          "date": "2027-04-06",
+          "days": 202,
+          "coupon_cash_rub": 118.698904,
+          "principal_cash_rub": 1000.0,
+          "total_future_cash_rub": 1118.698904,
+          "profit_per_bond_rub": 79.018904,
+          "body_discount_premium_result_rub": -7.5,
+          "total_return_pct": 7.60031
+        },
+        "yields": {
+          "current_coupon_yield_pct": 15.751861,
+          "simple_yield_to_maturity_pct": 13.733234,
+          "xirr_effective_pct": 14.935511,
+          "moex_yield_pct": 15.41,
+          "spread_to_key_rate_simple_pp": -0.266766
+        },
+        "projected_cashflows": {
+          "coupons": [
+            {
+              "date": "2026-10-06",
+              "amount": 39.566301,
+              "estimated": true
+            },
+            {
+              "date": "2027-01-05",
+              "amount": 39.566301,
+              "estimated": true
+            },
+            {
+              "date": "2027-04-06",
+              "amount": 39.566301,
+              "estimated": true
+            }
+          ],
+          "principal": [
+            {
+              "date": "2027-04-06",
+              "amount": 1000.0
+            }
+          ]
+        },
+        "warnings": [
+          "RUONIA_IND projected approximately from the configured RUONIA scenario; verify issue convention",
+          "Calculated XIRR differs from MOEX YIELD by -0.47 pp; verify convention/cashflows",
+          "3 future coupon(s) are not announced and were projected using scenario rate 15.87%"
+        ]
       },
       "cashflows": {
         "coupons": [
