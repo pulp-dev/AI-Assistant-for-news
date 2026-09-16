@@ -1,0 +1,36 @@
+name: MOEX exact fixed bond screen
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "moex-bridge/screen_exact_fixed.py"
+      - ".github/workflows/moex-exact-fixed-screen.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moex-exact-fixed-screen
+  cancel-in-progress: true
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run exact fixed screen
+        run: python3 moex-bridge/screen_exact_fixed.py
+      - name: Commit screen results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moex-bridge/data/exact_fixed_screen.json moex-bridge/data/exact_fixed_screen.tsv
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update exact fixed bond screen"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
