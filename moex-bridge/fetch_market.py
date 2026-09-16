@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-import json, pathlib, datetime as dt
+import json, pathlib, datetime as dt, subprocess
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 BASE='https://iss.moex.com/iss'; ROOT=pathlib.Path(__file__).resolve().parent; DATA=ROOT/'data'
-BOARDS=('TQCB','TQOB')
-META_FILE=DATA/'bond_metadata.json'
+BOARDS=('TQCB','TQOB'); META_FILE=DATA/'bond_metadata.json'; MARKET_FILE=DATA/'market.jsonl'
+MIN_BOARD_COUNTS={'TQCB':500,'TQOB':20}
 
 def get(path, **p):
     p.setdefault('iss.meta','off'); u=f'{BASE}{path}.json?{urlencode(p)}'
@@ -26,34 +26,92 @@ def load_metadata():
     except Exception:
         return {}, None
 
-def compact(board,s,m,meta):
-    face=num(s.get('FACEVALUE')); ask=num(m.get('OFFER')); last=num(m.get('LAST')); prev=num(s.get('PREVLEGALCLOSEPRICE')) or num(s.get('PREVPRICE')); px=ask or last or prev; nkd=num(s.get('ACCRUEDINT')) or 0; cp=num(s.get('COUPONPERCENT')); clean=face*px/100 if face is not None and px is not None else None
+def meta_fields(meta, fallback_offer_date=None):
     offers=meta.get('offers') or []
     return {
+      'has_offer':bool(offers or meta.get('next_offer_date') or fallback_offer_date),
+      'next_offer_date':meta.get('next_offer_date') or fallback_offer_date,
+      'next_offer_type':meta.get('next_offer_type'),
+      'offers':offers,
+      'rating':meta.get('rating'),'rating_rank':meta.get('rating_rank'),
+      'rating_source':meta.get('rating_source'),'rating_checked_at':meta.get('rating_checked_at')
+    }
+
+def compact(board,s,m,meta):
+    face=num(s.get('FACEVALUE')); ask=num(m.get('OFFER')); last=num(m.get('LAST')); prev=num(s.get('PREVLEGALCLOSEPRICE')) or num(s.get('PREVPRICE')); px=ask or last or prev; nkd=num(s.get('ACCRUEDINT')) or 0; cp=num(s.get('COUPONPERCENT')); clean=face*px/100 if face is not None and px is not None else None
+    r={
       'board':board,'secid':s.get('SECID'),'isin':s.get('ISIN'),'shortname':s.get('SHORTNAME'),'name':s.get('SECNAME'),'regnumber':s.get('REGNUMBER'),
       'face':face,'faceunit':s.get('FACEUNIT'),'nkd':nkd,'coupon_pct':cp,'coupon_value':num(s.get('COUPONVALUE')),'next_coupon':s.get('NEXTCOUPON'),'maturity':s.get('MATDATE'),
-      'offer_date':s.get('OFFERDATE'),'buyback_price':num(s.get('BUYBACKPRICE')),'has_offer':bool(offers or meta.get('next_offer_date')),'next_offer_date':meta.get('next_offer_date') or s.get('OFFERDATE'),'next_offer_type':meta.get('next_offer_type'),'offers':offers,
-      'rating':meta.get('rating'),'rating_rank':meta.get('rating_rank'),'rating_source':meta.get('rating_source'),'rating_checked_at':meta.get('rating_checked_at'),
-      'list_level':s.get('LISTLEVEL'),'issue_size':s.get('ISSUESIZE'),'settle_date':s.get('SETTLEDATE'),
+      'offer_date':s.get('OFFERDATE'),'buyback_price':num(s.get('BUYBACKPRICE')),'list_level':s.get('LISTLEVEL'),'issue_size':s.get('ISSUESIZE'),'settle_date':s.get('SETTLEDATE'),
       'bid':num(m.get('BID')),'offer':ask,'last':last,'moex_yield':num(m.get('YIELD')),'num_trades':m.get('NUMTRADES'),'value_today':m.get('VALTODAY'),'volume_today':m.get('VOLTODAY'),'system_time':m.get('SYSTIME'),
       'purchase_price_pct':px,'clean_price_rub':round(clean,6) if clean is not None else None,'dirty_price_rub':round(clean+nkd,6) if clean is not None else None,'current_coupon_yield_pct':round(cp/px*100,6) if cp is not None and px else None
     }
+    r.update(meta_fields(meta,s.get('OFFERDATE'))); return r
+
+def enrich_existing(row,metadata):
+    isin=row.get('isin') or row.get('secid'); m=metadata.get(isin,{}) if isin else {}
+    row.update(meta_fields(m,row.get('offer_date'))); return row
+
+def parse_jsonl(text):
+    out=[]
+    for line in text.splitlines():
+        if not line.strip(): continue
+        try: out.append(json.loads(line))
+        except Exception: pass
+    return out
+
+def historical_fallback(metadata):
+    # actions/checkout is configured with enough history for this safety net.
+    try:
+        p=subprocess.run(['git','log','--format=%H','--','moex-bridge/data/market.jsonl'],cwd=ROOT.parent,capture_output=True,text=True,timeout=20)
+        commits=[x.strip() for x in p.stdout.splitlines() if x.strip()]
+    except Exception:
+        commits=[]
+    for sha in commits[:30]:
+        try:
+            p=subprocess.run(['git','show',f'{sha}:moex-bridge/data/market.jsonl'],cwd=ROOT.parent,capture_output=True,text=True,timeout=30)
+            if p.returncode!=0: continue
+            rr=parse_jsonl(p.stdout)
+            if len(rr)<500: continue
+            rr=[enrich_existing(r,metadata) for r in rr]
+            counts={b:sum(1 for r in rr if r.get('board')==b) for b in BOARDS}
+            if all(counts.get(b,0)>=MIN_BOARD_COUNTS[b] for b in BOARDS): return rr,counts,sha
+        except Exception:
+            continue
+    return [],{},None
 
 def main():
-    DATA.mkdir(parents=True,exist_ok=True); allr=[]; counts={}; metadata,metadata_at=load_metadata()
+    DATA.mkdir(parents=True,exist_ok=True); metadata,metadata_at=load_metadata(); fresh=[]; counts={}; errors=[]
     for b in BOARDS:
-        p=get(f'/engines/stock/markets/bonds/boards/{b}/securities')
-        ss=rows(p,'securities'); md={x.get('SECID'):x for x in rows(p,'marketdata') if x.get('SECID')}
-        rr=[]
-        for s in ss:
-            if not s.get('SECID'): continue
-            isin=s.get('ISIN') or s.get('SECID')
-            rr.append(compact(b,s,md.get(s.get('SECID'),{}),metadata.get(isin,{}) if isin else {}))
-        counts[b]=len(rr); allr+=rr
-    allr.sort(key=lambda r:(r['board'],r['secid']))
-    (DATA/'market.jsonl').write_text('\n'.join(json.dumps(r,ensure_ascii=False,separators=(',',':')) for r in allr)+'\n',encoding='utf-8')
+        try:
+            p=get(f'/engines/stock/markets/bonds/boards/{b}/securities')
+            ss=rows(p,'securities'); md={x.get('SECID'):x for x in rows(p,'marketdata') if x.get('SECID')}
+            rr=[]
+            for s in ss:
+                if not s.get('SECID'): continue
+                isin=s.get('ISIN') or s.get('SECID'); rr.append(compact(b,s,md.get(s.get('SECID'),{}),metadata.get(isin,{}) if isin else {}))
+            counts[b]=len(rr); fresh+=rr
+        except Exception as e:
+            counts[b]=0; errors.append(f'{b}: {type(e).__name__}: {e}')
+
+    stale=False; fallback_sha=None
+    valid=all(counts.get(b,0)>=MIN_BOARD_COUNTS[b] for b in BOARDS)
+    if valid:
+        allr=fresh
+    else:
+        allr,counts,fallback_sha=historical_fallback(metadata); stale=True
+        if not allr:
+            raise RuntimeError(f'MOEX returned an incomplete market snapshot {counts}; no usable historical fallback. errors={errors}')
+
+    allr.sort(key=lambda r:(r.get('board') or '',r.get('secid') or ''))
+    MARKET_FILE.write_text('\n'.join(json.dumps(r,ensure_ascii=False,separators=(',',':')) for r in allr)+'\n',encoding='utf-8')
     idx=[{k:r.get(k) for k in ('secid','isin','shortname','name','board','rating','rating_rank','has_offer','next_offer_date','next_offer_type')} for r in allr]
     (DATA/'market_index.json').write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-    now=dt.datetime.now(dt.timezone.utc); meta={'generated_at_utc':now.isoformat(timespec='seconds'),'generated_at_msk':now.astimezone(dt.timezone(dt.timedelta(hours=3))).isoformat(timespec='seconds'),'source':'MOEX ISS','coverage':list(BOARDS),'board_counts':counts,'total':len(allr),'bond_metadata_generated_at_utc':metadata_at,'with_rating':sum(1 for r in allr if r.get('rating')),'with_offer_metadata':sum(1 for r in allr if r.get('has_offer'))}
+    now=dt.datetime.now(dt.timezone.utc); meta={
+      'generated_at_utc':now.isoformat(timespec='seconds'),'generated_at_msk':now.astimezone(dt.timezone(dt.timedelta(hours=3))).isoformat(timespec='seconds'),
+      'source':'MOEX ISS','coverage':list(BOARDS),'board_counts':counts,'total':len(allr),'bond_metadata_generated_at_utc':metadata_at,
+      'with_rating':sum(1 for r in allr if r.get('rating')),'with_offer_metadata':sum(1 for r in allr if r.get('has_offer')),
+      'market_data_stale':stale,'fallback_commit':fallback_sha,'fetch_errors':errors
+    }
     (DATA/'market_meta.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf-8'); print(meta)
 if __name__=='__main__':main()
