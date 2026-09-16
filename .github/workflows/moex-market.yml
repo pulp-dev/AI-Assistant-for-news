@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "moex-bridge/fetch_market.py"
+      - "moex-bridge/data/bond_metadata.json"
       - "moex-bridge/screen_fixed.py"
       - "moex-bridge/shortlist_fixed.py"
       - "moex-bridge/shortlist_tsv.py"
