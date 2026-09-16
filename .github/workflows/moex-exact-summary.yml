@@ -1,0 +1,31 @@
+name: MOEX exact screen compact summary
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "moex-bridge/summarize_exact_screen.py"
+      - ".github/workflows/moex-exact-summary.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build compact summary
+        run: python3 moex-bridge/summarize_exact_screen.py
+      - name: Commit summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moex-bridge/data/exact_fixed_screen_compact.tsv
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update compact exact bond screen"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
