@@ -1,0 +1,13 @@
+{
+  "generated_from": "moex-bridge/data/market.jsonl",
+  "criteria": {
+    "days_to_maturity_min": 270,
+    "days_to_maturity_max": 550,
+    "approx_simple_yield_min_pct": 14.5,
+    "requires_offer": true,
+    "requires_coupon_pct": true,
+    "note": "Pre-screen only. Fixed/floater type, ratings, amortizations and exact simple yield require detailed verification."
+  },
+  "count": 0,
+  "candidates": []
+}
