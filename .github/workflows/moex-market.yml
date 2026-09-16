@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 30
       - name: Fetch full MOEX bond market
         run: python3 moex-bridge/fetch_market.py
       - name: Screen fixed-coupon candidates
