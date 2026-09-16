@@ -9,6 +9,8 @@ on:
       - "moex-bridge/fetch_moex.py"
       - "moex-bridge/watchlist.json"
       - "moex-bridge/summarize_detailed.py"
+      - "moex-bridge/build_floater_report.py"
+      - "moex-bridge/floater_targets.json"
       - ".github/workflows/moex-bridge.yml"
 
 permissions:
@@ -29,11 +31,13 @@ jobs:
         run: python3 moex-bridge/fetch_moex.py
       - name: Build compact detailed summary
         run: python3 moex-bridge/summarize_detailed.py
+      - name: Build floater horizon report
+        run: python3 moex-bridge/build_floater_report.py
       - name: Commit detailed snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add moex-bridge/data/latest.json moex-bridge/data/detailed_summary.tsv
+          git add moex-bridge/data/latest.json moex-bridge/data/detailed_summary.tsv moex-bridge/data/floater_report.json moex-bridge/data/floater_report.tsv
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update detailed MOEX bond snapshot"
           git pull --rebase origin "${GITHUB_REF_NAME}"
