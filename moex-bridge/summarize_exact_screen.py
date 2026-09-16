@@ -7,7 +7,8 @@ rows=[]
 for r in p.get('candidates',[]):
     name=(r.get('name') or '')
     # Ordinary coupon bonds only; omit structured/investment notes from the
-    # user-facing shortlist.
+    # user-facing shortlist. Keep normal fixed coupons, including discounted
+    # older issues with low but genuine fixed coupons.
     if (r.get('coupon_pct') or 0) < 1: continue
     if any(x in name.lower() for x in ('инвестиционн', 'иос ', 'структур')): continue
     rows.append(r)
