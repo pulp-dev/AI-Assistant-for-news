@@ -42,6 +42,7 @@ def d(s):
 
 def main():
     candidates = []
+    fallback_settle = dt.date.today()
     for raw in INPUT.read_text(encoding="utf-8").splitlines():
         if not raw.strip():
             continue
@@ -51,8 +52,8 @@ def main():
         coupon = f(r.get("coupon_pct"))
         nkd = f(r.get("nkd")) or 0.0
         maturity = d(r.get("maturity"))
-        settle = d(r.get("settle_date"))
-        if not all((face, offer, coupon, maturity, settle)):
+        settle = d(r.get("settle_date")) or fallback_settle
+        if not all((face, offer, coupon, maturity)):
             continue
         days = (maturity - settle).days
         if days < MIN_DAYS or days > MAX_DAYS:
