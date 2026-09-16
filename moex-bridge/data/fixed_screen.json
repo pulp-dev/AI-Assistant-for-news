@@ -6,8 +6,200 @@
     "approx_simple_yield_min_pct": 14.5,
     "requires_offer": true,
     "requires_coupon_pct": true,
-    "note": "Pre-screen only. Fixed/floater type, ratings, amortizations and exact simple yield require detailed verification."
+    "note": "Pre-screen only. Verify fixed/floater, ratings, amortizations and exact simple yield."
   },
+  "stats": {
+    "rows": 3093,
+    "face": 3093,
+    "offer": 0,
+    "last": 1820,
+    "coupon_pct": 2303,
+    "maturity": 3036,
+    "in_horizon": 536,
+    "calculable": 0
+  },
+  "horizon_samples": [
+    {
+      "secid": "BYM000001818",
+      "name": "РесБел 331 29.06.2027",
+      "offer": null,
+      "last": 99.75,
+      "coupon_pct": 7.625,
+      "maturity": "2027-06-29",
+      "days": 286
+    },
+    {
+      "secid": "BYM000002154",
+      "name": "РесБел 340 29.06.2027",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 7.625,
+      "maturity": "2027-06-29",
+      "days": 286
+    },
+    {
+      "secid": "BYM000003053",
+      "name": "РесБел 355 29.06.2027",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 7.625,
+      "maturity": "2027-06-29",
+      "days": 286
+    },
+    {
+      "secid": "RU000A0JSQ58",
+      "name": "ФСК Россети(ПАО)-обл. сер.22",
+      "offer": null,
+      "last": 98.85,
+      "coupon_pct": 10.0,
+      "maturity": "2027-07-21",
+      "days": 308
+    },
+    {
+      "secid": "RU000A0JXLU2",
+      "name": "СФО Локосервис финанс ООО 01",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 8.68,
+      "maturity": "2027-06-20",
+      "days": 277
+    },
+    {
+      "secid": "RU000A0JXTS9",
+      "name": "ГОВОЗ РФ 12840078V (RU)",
+      "offer": null,
+      "last": 92.2001,
+      "coupon_pct": 4.25,
+      "maturity": "2027-06-23",
+      "days": 280
+    },
+    {
+      "secid": "RU000A0JXVB1",
+      "name": "ТрансФин-М ПАО 001P-03",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 10.5,
+      "maturity": "2027-06-28",
+      "days": 285
+    },
+    {
+      "secid": "RU000A0JXXD3",
+      "name": "ПАО НК Роснефть 001P-06",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 8.0,
+      "maturity": "2027-07-14",
+      "days": 301
+    },
+    {
+      "secid": "RU000A0JXXE1",
+      "name": "ПАО НК Роснефть 001P-07",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 8.0,
+      "maturity": "2027-07-14",
+      "days": 301
+    },
+    {
+      "secid": "RU000A0NR5X4",
+      "name": "Сбер CIB-СО-531",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 0.01,
+      "maturity": "2027-08-23",
+      "days": 341
+    },
+    {
+      "secid": "RU000A0NR5Y2",
+      "name": "Сбер CIB-СО-532",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 0.01,
+      "maturity": "2028-03-09",
+      "days": 540
+    },
+    {
+      "secid": "RU000A0NR9K3",
+      "name": "Сбер CIB-СО-608",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 0.01,
+      "maturity": "2027-07-22",
+      "days": 309
+    },
+    {
+      "secid": "RU000A0NR9U2",
+      "name": "Сбер CIB-СО-617",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 0.01,
+      "maturity": "2028-03-09",
+      "days": 540
+    },
+    {
+      "secid": "RU000A0NR9V0",
+      "name": "Сбер CIB-СО-618",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 0.01,
+      "maturity": "2028-03-09",
+      "days": 540
+    },
+    {
+      "secid": "RU000A0NR9W8",
+      "name": "Сбер CIB-СО-619",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 0.01,
+      "maturity": "2028-03-09",
+      "days": 540
+    },
+    {
+      "secid": "RU000A0ZYCP5",
+      "name": "ПАО НК Роснефть 001P-08",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 8.0,
+      "maturity": "2027-09-30",
+      "days": 379
+    },
+    {
+      "secid": "RU000A0ZYEB1",
+      "name": "ТрансФин-М ПАО 001P-04",
+      "offer": null,
+      "last": 98.51,
+      "coupon_pct": 18.0,
+      "maturity": "2027-10-14",
+      "days": 393
+    },
+    {
+      "secid": "RU000A0ZYFS2",
+      "name": "ТрансФин-М ПАО 001P-05",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 17.5,
+      "maturity": "2027-11-03",
+      "days": 413
+    },
+    {
+      "secid": "RU000A0ZYG52",
+      "name": "Ростелеком ПАО 001P-03R",
+      "offer": null,
+      "last": 100.37,
+      "coupon_pct": 13.8,
+      "maturity": "2027-11-09",
+      "days": 419
+    },
+    {
+      "secid": "RU000A0ZYH93",
+      "name": "Новосибирск  мун.обл. 2017",
+      "offer": null,
+      "last": null,
+      "coupon_pct": 7.85,
+      "maturity": "2027-11-27",
+      "days": 437
+    }
+  ],
   "count": 0,
   "candidates": []
 }
