@@ -1,0 +1,37 @@
+name: MOEX bond metadata
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Ratings and offer schedules change much more slowly than quotes.
+    - cron: "15 03 * * 1-5"
+  push:
+    paths:
+      - "moex-bridge/fetch_bond_metadata.py"
+      - ".github/workflows/moex-metadata.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moex-bond-metadata
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Fetch ratings and offer metadata
+        run: python3 moex-bridge/fetch_bond_metadata.py
+      - name: Commit metadata cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moex-bridge/data/bond_metadata.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update bond ratings and offers"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
