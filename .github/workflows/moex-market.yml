@@ -10,6 +10,7 @@ on:
       - "moex-bridge/fetch_market.py"
       - "moex-bridge/screen_fixed.py"
       - "moex-bridge/shortlist_fixed.py"
+      - "moex-bridge/shortlist_tsv.py"
       - ".github/workflows/moex-market.yml"
 
 permissions:
@@ -32,11 +33,13 @@ jobs:
         run: python3 moex-bridge/screen_fixed.py
       - name: Build practical fixed shortlist
         run: python3 moex-bridge/shortlist_fixed.py
+      - name: Export compact shortlist
+        run: python3 moex-bridge/shortlist_tsv.py
       - name: Commit market snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add moex-bridge/data/market.jsonl moex-bridge/data/market_index.json moex-bridge/data/market_meta.json moex-bridge/data/fixed_screen.json moex-bridge/data/fixed_shortlist.json
+          git add moex-bridge/data/market.jsonl moex-bridge/data/market_index.json moex-bridge/data/market_meta.json moex-bridge/data/fixed_screen.json moex-bridge/data/fixed_shortlist.json moex-bridge/data/fixed_shortlist.tsv
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update full MOEX bond market"
           git pull --rebase origin "${GITHUB_REF_NAME}"
