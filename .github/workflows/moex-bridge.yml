@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "moex-bridge/fetch_moex.py"
+      - "moex-bridge/fetch_moex_parallel.py"
       - "moex-bridge/watchlist.json"
       - "moex-bridge/summarize_detailed.py"
       - "moex-bridge/build_floater_report.py"
@@ -28,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Fetch detailed MOEX ISS data
-        run: python3 moex-bridge/fetch_moex.py
+        run: python3 moex-bridge/fetch_moex_parallel.py
       - name: Build compact detailed summary
         run: python3 moex-bridge/summarize_detailed.py
       - name: Build floater horizon report
