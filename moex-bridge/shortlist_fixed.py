@@ -22,7 +22,12 @@ for line in (D/'market.jsonl').read_text(encoding='utf-8').splitlines():
     if size and size < 500000: continue
     name=(r.get('name') or '')
     if any(x in name for x in ('СО-', 'структур', 'ипотеч')): continue
-    rows.append({'secid':r.get('secid'),'name':name,'price':price,'coupon':c,'nkd':nkd,'maturity':r.get('maturity'),'days':days,'simple0':round(simple,3),'ytm':r.get('moex_yield')})
+    rows.append({
+      'secid':r.get('secid'),'isin':r.get('isin'),'name':name,'price':price,'coupon':c,'nkd':nkd,
+      'maturity':r.get('maturity'),'days':days,'simple0':round(simple,3),'ytm':r.get('moex_yield'),
+      'rating':r.get('rating'),'rating_rank':r.get('rating_rank'),'rating_source':r.get('rating_source'),'rating_checked_at':r.get('rating_checked_at'),
+      'has_offer':r.get('has_offer'),'next_offer_date':r.get('next_offer_date'),'next_offer_type':r.get('next_offer_type'),'offers':r.get('offers') or []
+    })
 rows.sort(key=lambda x:(-x['simple0'],x['days']))
 (D/'fixed_shortlist.json').write_text(json.dumps({'count':len(rows),'candidates':rows},ensure_ascii=False,indent=2),encoding='utf-8')
 print('shortlist',len(rows))
