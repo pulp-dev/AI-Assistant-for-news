@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-17T07:32:28+00:00",
-  "generated_at_msk": "2026-09-17T10:32:28+03:00",
+  "generated_at_utc": "2026-09-17T07:36:10+00:00",
+  "generated_at_msk": "2026-09-17T10:36:10+03:00",
   "source": "MOEX bridge market.jsonl + MOEX ISS bondization/description",
   "criteria": {
     "currency": "RUB/SUR",
@@ -18,269 +18,8 @@
   },
   "market_rows": 3085,
   "preliminary_count": 1048,
-  "count": 764,
-  "errors": [
-    {
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "secid": "RU000A0JXT58",
-      "name": "Международн.инвест.банк БО1P-1"
-    },
-    {
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "secid": "RU000A102CT6",
-      "name": "Свердловская область 35009"
-    },
-    {
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "secid": "RU000A10BZT3",
-      "name": "Биннофарм Групп 001Р-06"
-    },
-    {
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "secid": "RU000A10CL56",
-      "name": "СберИОС 001Р-753R 3Y1M ОФЗ"
-    },
-    {
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "secid": "RU000A10DTG9",
-      "name": "ВТБ Лизинг 001Р-МБ-04"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10E9M5",
-      "name": "Защита онлайн БО-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10E739",
-      "name": "Ростелеком ПАО 001P-22R"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10E9Z7",
-      "name": "МКАО Воксис 001Р-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EA08",
-      "name": "Софтлайн 002Р-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EA40",
-      "name": "ГК Азот 001Р-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EAQ6",
-      "name": "КРОНОС БО-01"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EBE0",
-      "name": "Ростелеком ПАО 001P-23R"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EC48",
-      "name": "ПКО СЗА БО-06"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10E7Y4",
-      "name": "ГПБ (АО) БО 004Р-39"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EC63",
-      "name": "Брусника 002Р-06"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ECY6",
-      "name": "ЭЛЕКТРОРЕШЕНИЯ 001Р-03"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EDV0",
-      "name": "АйДи Коллект 001P-07"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EFP7",
-      "name": "Банк ВТБ (ПАО) Б-1-331"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EAC6",
-      "name": "КАМАЗ ПАО БО-П20"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EA16",
-      "name": "Почта России 003P-03"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EFR3",
-      "name": "Банк ВТБ (ПАО) Б-1-333"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EFY9",
-      "name": "СберИОС 001Р-784R 2Г ОФЗ ДИС"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EAS2",
-      "name": "ТМК 002P-01"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EN94",
-      "name": "СберИОС 001Р-786R 13М ОФЗ ДИС"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ENA3",
-      "name": "Йуми БО-01"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ERE6",
-      "name": "АВТОБАН-Финанс АО БО-П08"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EPQ4",
-      "name": "Автодор ГК БО-005Р-16"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EPU6",
-      "name": "АВТОАССИСТАНС 001P-01"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EPV4",
-      "name": "СИМПЛ СОЛЮШНЗ КЭПИТЛ 001Р-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ERH9",
-      "name": "АВТОБАН-Финанс АО БО-П09"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ESF1",
-      "name": "ФДВ Факторинг 001P-01"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ESM7",
-      "name": "Мобильные Телесистемы 002Р-18"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EQ83",
-      "name": "ГК Самолет 002P-03"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EQ91",
-      "name": "СберИОС 001Р-788R 1Г TATNДИС"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10ETL7",
-      "name": "Ростелеком ПАО 001P-25R"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EVP4",
-      "name": "Банк ВТБ (ПАО) Б-1-390"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EQB4",
-      "name": "СберИОС 001Р-790R 2Г ОФЗ ДИС"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EQE8",
-      "name": "Первый ЮвелирЛомб БО-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EVQ2",
-      "name": "Банк ВТБ (ПАО) Б-1-391"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FCV9",
-      "name": "СберИОС 001Р-804R 1Y USDRUB"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FD04",
-      "name": "Сибирское Стекло БО-04"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FD46",
-      "name": "Ред Софт БО 002Р-06"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FED3",
-      "name": "Банк ВТБ (ПАО) Б-1-405"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FEG6",
-      "name": "Банк ВТБ (ПАО) Б-1-408"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FEJ0",
-      "name": "Банк ВТБ (ПАО) Б-1-410"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10F850",
-      "name": "РОЛЬФ БО 001Р-09"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10F8X3",
-      "name": "СберИОС 001Р-800R 1Г NVTKДИС"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FEM4",
-      "name": "Банк ВТБ (ПАО) Б-1-403"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10EQV2",
-      "name": "БиоВитрум 001Р-02"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FH42",
-      "name": "СберИОС 001Р-805R 5К ОФЗ ДИС"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FEB7",
-      "name": "МКПАО ЯНДЕКС 001Р-05"
-    },
-    {
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "secid": "RU000A10FJ65",
-      "name": "ЛК Роделен БО 002P-06"
-    }
-  ],
+  "count": 805,
+  "errors": [],
   "candidates": [
     {
       "secid": "RU000A101UW4",
@@ -492,6 +231,43 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 0,
       "value_today": 0
+    },
+    {
+      "secid": "RU000A10BZT3",
+      "isin": "RU000A10BZT3",
+      "name": "Биннофарм Групп 001Р-06",
+      "shortname": "БинФарм1P6",
+      "rating": "A-",
+      "rating_rank": 13,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.85,
+      "price_source": "OFFER",
+      "nkd_rub": 8.55,
+      "clean_rub": 1008.5,
+      "dirty_rub": 1017.05,
+      "coupon_pct": 19.5,
+      "current_coupon_yield_pct": 19.3356,
+      "event_date": "2027-01-13",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2028-06-22",
+      "days_to_event": 118,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 4,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1064.12,
+      "profit_per_bond_rub": 47.07,
+      "simple_yield_pct": 14.3157,
+      "effective_xirr_pct": 15.5297,
+      "moex_yield_pct": 18.14,
+      "put_date": "2027-01-13",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 819,
+      "value_today": 2459559
     },
     {
       "secid": "RU000A0ZYNY4",
@@ -3069,6 +2845,48 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10E7Y4",
+      "isin": "RU000A10E7Y4",
+      "name": "ГПБ (АО) БО 004Р-39",
+      "shortname": "ГПБ004Р39",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 97.31,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0.06,
+      "clean_rub": 973.1,
+      "dirty_rub": 973.16,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0103,
+      "event_date": "2027-02-27",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-02-27",
+      "days_to_event": 163,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-02-27",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.1,
+      "profit_per_bond_rub": 26.94,
+      "simple_yield_pct": 6.199,
+      "effective_xirr_pct": 6.3055,
+      "moex_yield_pct": 6.31,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A107Q95",
       "isin": "RU000A107Q95",
       "name": "ГПБ (АО) БО 004Р-03",
@@ -3309,6 +3127,48 @@
       "unknown_offer_dates_ignored": [
         "2027-03-01"
       ],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
+      "secid": "RU000A0JXT58",
+      "isin": "RU000A0JXT58",
+      "name": "Международн.инвест.банк БО1P-1",
+      "shortname": "МежИнБ01P1",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 95.5,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 955.0,
+      "dirty_rub": 955.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0105,
+      "event_date": "2027-03-01",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-03-01",
+      "days_to_event": 165,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-03-01",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.05,
+      "profit_per_bond_rub": 45.05,
+      "simple_yield_pct": 10.4352,
+      "effective_xirr_pct": 10.7345,
+      "moex_yield_pct": 23.21,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
       "num_trades": 0,
       "value_today": 0
     },
@@ -5876,6 +5736,50 @@
       "value_today": 911507
     },
     {
+      "secid": "RU000A10EFP7",
+      "isin": "RU000A10EFP7",
+      "name": "Банк ВТБ (ПАО) Б-1-331",
+      "shortname": "ВТБ Б1-331",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.33,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 1003.3,
+      "dirty_rub": 1003.3,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.01,
+      "event_date": "2027-04-14",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-04-14",
+      "days_to_event": 209,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-04-14",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 3,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.06,
+      "profit_per_bond_rub": -3.24,
+      "simple_yield_pct": -0.564,
+      "effective_xirr_pct": -0.5633,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-04-14"
+      ],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A108C74",
       "isin": "RU000A108C74",
       "name": "РЕСО-Лизинг ООО БО-П-25",
@@ -6414,6 +6318,50 @@
       "value_today": 531603
     },
     {
+      "secid": "RU000A10EFR3",
+      "isin": "RU000A10EFR3",
+      "name": "Банк ВТБ (ПАО) Б-1-333",
+      "shortname": "ВТБ Б1-333",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.95,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 1009.5,
+      "dirty_rub": 1009.5,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0099,
+      "event_date": "2027-04-26",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-04-26",
+      "days_to_event": 221,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-04-26",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 3,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.06,
+      "profit_per_bond_rub": -9.44,
+      "simple_yield_pct": -1.5444,
+      "effective_xirr_pct": -1.5398,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-04-26"
+      ],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A1084F3",
       "isin": "RU000A1084F3",
       "name": "ГПБ (АО) БО 004Р-05",
@@ -6693,6 +6641,48 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10EQ91",
+      "isin": "RU000A10EQ91",
+      "name": "СберИОС 001Р-788R 1Г TATNДИС",
+      "shortname": "СберИОС788",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 106.5,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 1065.0,
+      "dirty_rub": 1065.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0094,
+      "event_date": "2027-04-30",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-04-30",
+      "days_to_event": 225,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-04-30",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.1,
+      "profit_per_bond_rub": -64.9,
+      "simple_yield_pct": -9.8857,
+      "effective_xirr_pct": -9.6968,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 3,
+      "value_today": 8448
+    },
+    {
       "secid": "RU000A105SP3",
       "isin": "RU000A105SP3",
       "name": "ГК Сегежа 003P-02R",
@@ -6862,6 +6852,50 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 7,
       "value_today": 20071
+    },
+    {
+      "secid": "RU000A10EVP4",
+      "isin": "RU000A10EVP4",
+      "name": "Банк ВТБ (ПАО) Б-1-390",
+      "shortname": "ВТБ Б1-390",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 92.01,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 920.1,
+      "dirty_rub": 920.1,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0109,
+      "event_date": "2027-05-12",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-05-12",
+      "days_to_event": 237,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-05-12",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 3,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.06,
+      "profit_per_bond_rub": 79.96,
+      "simple_yield_pct": 13.3839,
+      "effective_xirr_pct": 13.6943,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-05-12"
+      ],
+      "num_trades": 0,
+      "value_today": 0
     },
     {
       "secid": "RU000A101P27",
@@ -7437,6 +7471,48 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10EN94",
+      "isin": "RU000A10EN94",
+      "name": "СберИОС 001Р-786R 13М ОФЗ ДИС",
+      "shortname": "СберИОС786",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 96.5,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 965.0,
+      "dirty_rub": 965.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0104,
+      "event_date": "2027-05-24",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-05-24",
+      "days_to_event": 249,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-05-24",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.11,
+      "profit_per_bond_rub": 35.11,
+      "simple_yield_pct": 5.3333,
+      "effective_xirr_pct": 5.3782,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A10BQC8",
       "isin": "RU000A10BQC8",
       "name": "ХЭНДЕРСОН 001P-01",
@@ -7519,6 +7595,50 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 2,
       "value_today": 1967
+    },
+    {
+      "secid": "RU000A10EVQ2",
+      "isin": "RU000A10EVQ2",
+      "name": "Банк ВТБ (ПАО) Б-1-391",
+      "shortname": "ВТБ Б1-391",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 87.18,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 871.8,
+      "dirty_rub": 871.8,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0115,
+      "event_date": "2027-05-25",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-05-25",
+      "days_to_event": 250,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-05-25",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 3,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.06,
+      "profit_per_bond_rub": 128.26,
+      "simple_yield_pct": 21.4797,
+      "effective_xirr_pct": 22.1888,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-05-25"
+      ],
+      "num_trades": 0,
+      "value_today": 0
     },
     {
       "secid": "RU000A101QN1",
@@ -9061,6 +9181,48 @@
       "value_today": 47775
     },
     {
+      "secid": "RU000A10FCV9",
+      "isin": "RU000A10FCV9",
+      "name": "СберИОС 001Р-804R 1Y USDRUB",
+      "shortname": "СберИОС804",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 113.32,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 1133.2,
+      "dirty_rub": 1133.2,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0088,
+      "event_date": "2027-06-18",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-06-18",
+      "days_to_event": 274,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-06-18",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.1,
+      "profit_per_bond_rub": -133.1,
+      "simple_yield_pct": -15.6464,
+      "effective_xirr_pct": -15.3328,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A108RK0",
       "isin": "RU000A108RK0",
       "name": "ТД РКС 002Р-04",
@@ -10015,6 +10177,48 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10F8X3",
+      "isin": "RU000A10F8X3",
+      "name": "СберИОС 001Р-800R 1Г NVTKДИС",
+      "shortname": "СберИОС800",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 104.78,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 1047.8,
+      "dirty_rub": 1047.8,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0095,
+      "event_date": "2027-06-25",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-06-25",
+      "days_to_event": 281,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-06-25",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.1,
+      "profit_per_bond_rub": -47.7,
+      "simple_yield_pct": -5.9133,
+      "effective_xirr_pct": -5.8726,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 1,
+      "value_today": 1048
+    },
+    {
       "secid": "RU000A10BPC0",
       "isin": "RU000A10BPC0",
       "name": "ГПБ (АО) БО 004Р-20",
@@ -10559,6 +10763,50 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10FEM4",
+      "isin": "RU000A10FEM4",
+      "name": "Банк ВТБ (ПАО) Б-1-403",
+      "shortname": "ВТБ Б1-403",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 90.02,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 900.2,
+      "dirty_rub": 900.2,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0111,
+      "event_date": "2027-07-06",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-07-06",
+      "days_to_event": 292,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-07-06",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 4,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.08,
+      "profit_per_bond_rub": 99.88,
+      "simple_yield_pct": 13.8691,
+      "effective_xirr_pct": 14.057,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-07-06"
+      ],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A104Y15",
       "isin": "RU000A104Y15",
       "name": "НоваБев Групп 002P БО-П05",
@@ -10802,6 +11050,50 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 577,
       "value_today": 10423580
+    },
+    {
+      "secid": "RU000A10FED3",
+      "isin": "RU000A10FED3",
+      "name": "Банк ВТБ (ПАО) Б-1-405",
+      "shortname": "ВТБ Б1-405",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 119.9,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 1199.0,
+      "dirty_rub": 1199.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0083,
+      "event_date": "2027-07-13",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-07-13",
+      "days_to_event": 299,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-07-13",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 4,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.08,
+      "profit_per_bond_rub": -198.92,
+      "simple_yield_pct": -20.2526,
+      "effective_xirr_pct": -19.8651,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-07-13"
+      ],
+      "num_trades": 0,
+      "value_today": 0
     },
     {
       "secid": "RU000A107PW1",
@@ -11527,6 +11819,50 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 201,
       "value_today": 1772264
+    },
+    {
+      "secid": "RU000A10FEG6",
+      "isin": "RU000A10FEG6",
+      "name": "Банк ВТБ (ПАО) Б-1-408",
+      "shortname": "ВТБ Б1-408",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 90.41,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 904.1,
+      "dirty_rub": 904.1,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0111,
+      "event_date": "2027-07-26",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-07-26",
+      "days_to_event": 312,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-07-26",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 4,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.08,
+      "profit_per_bond_rub": 95.98,
+      "simple_yield_pct": 12.4195,
+      "effective_xirr_pct": 12.5288,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-07-26"
+      ],
+      "num_trades": 0,
+      "value_today": 0
     },
     {
       "secid": "RU000A104FG2",
@@ -12439,6 +12775,50 @@
       "value_today": 718472
     },
     {
+      "secid": "RU000A10FEJ0",
+      "isin": "RU000A10FEJ0",
+      "name": "Банк ВТБ (ПАО) Б-1-410",
+      "shortname": "ВТБ Б1-410",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 98.6,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 986.0,
+      "dirty_rub": 986.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0101,
+      "event_date": "2027-08-10",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-08-10",
+      "days_to_event": 327,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-08-10",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 4,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.08,
+      "profit_per_bond_rub": 14.08,
+      "simple_yield_pct": 1.5939,
+      "effective_xirr_pct": 1.5953,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [
+        "2027-08-10"
+      ],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A10FEK8",
       "isin": "RU000A10FEK8",
       "name": "Банк ВТБ (ПАО) Б-1-411",
@@ -12962,6 +13342,85 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 1096,
       "value_today": 8404086
+    },
+    {
+      "secid": "RU000A10ECY6",
+      "isin": "RU000A10ECY6",
+      "name": "ЭЛЕКТРОРЕШЕНИЯ 001Р-03",
+      "shortname": "ЭЛРЕШ 1Р3",
+      "rating": "BBB",
+      "rating_rank": 11,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.76,
+      "price_source": "OFFER",
+      "nkd_rub": 15.45,
+      "clean_rub": 1007.6,
+      "dirty_rub": 1023.05,
+      "coupon_pct": 23.5,
+      "current_coupon_yield_pct": 23.3227,
+      "event_date": "2027-08-19",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-08-19",
+      "days_to_event": 336,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-08-19",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 12,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1231.84,
+      "profit_per_bond_rub": 208.79,
+      "simple_yield_pct": 22.17,
+      "effective_xirr_pct": 25.0749,
+      "moex_yield_pct": 25.09,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 229,
+      "value_today": 2192706
+    },
+    {
+      "secid": "RU000A10EAQ6",
+      "isin": "RU000A10EAQ6",
+      "name": "КРОНОС БО-01",
+      "shortname": "КРОНОС01",
+      "rating": "B",
+      "rating_rank": 5,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 52.95,
+      "price_source": "OFFER",
+      "nkd_rub": 1.48,
+      "clean_rub": 529.5,
+      "dirty_rub": 530.98,
+      "coupon_pct": 27.0,
+      "current_coupon_yield_pct": 50.9915,
+      "event_date": "2027-08-20",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2029-02-01",
+      "days_to_event": 337,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 11,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1244.09,
+      "profit_per_bond_rub": 713.11,
+      "simple_yield_pct": 145.4592,
+      "effective_xirr_pct": 185.8291,
+      "moex_yield_pct": 187.57,
+      "put_date": "2027-08-20",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 237,
+      "value_today": 409908
     },
     {
       "secid": "RU000A1099W6",
@@ -14762,6 +15221,43 @@
       "value_today": 15657184
     },
     {
+      "secid": "RU000A10ENA3",
+      "isin": "RU000A10ENA3",
+      "name": "Йуми БО-01",
+      "shortname": "Йуми Б01",
+      "rating": "B+",
+      "rating_rank": 6,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 98.49,
+      "price_source": "OFFER",
+      "nkd_rub": 17.81,
+      "clean_rub": 984.9,
+      "dirty_rub": 1002.71,
+      "coupon_pct": 25.0,
+      "current_coupon_yield_pct": 25.3833,
+      "event_date": "2027-09-27",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2029-03-09",
+      "days_to_event": 375,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 13,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1267.15,
+      "profit_per_bond_rub": 264.44,
+      "simple_yield_pct": 25.6693,
+      "effective_xirr_pct": 29.3982,
+      "moex_yield_pct": 30.21,
+      "put_date": "2027-09-27",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 109,
+      "value_today": 595918
+    },
+    {
       "secid": "RU000A100881",
       "isin": "RU000A100881",
       "name": "Ростелеком ПАО 001P-05R",
@@ -15555,6 +16051,43 @@
       "value_today": 20321
     },
     {
+      "secid": "RU000A10ESF1",
+      "isin": "RU000A10ESF1",
+      "name": "ФДВ Факторинг 001P-01",
+      "shortname": "ФДВФакт1P1",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 103.31,
+      "price_source": "OFFER",
+      "nkd_rub": 6.93,
+      "clean_rub": 1033.1,
+      "dirty_rub": 1040.03,
+      "coupon_pct": 23.0,
+      "current_coupon_yield_pct": 22.2631,
+      "event_date": "2027-10-15",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2029-09-20",
+      "days_to_event": 393,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 13,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1245.7,
+      "profit_per_bond_rub": 205.67,
+      "simple_yield_pct": 18.3665,
+      "effective_xirr_pct": 20.5448,
+      "moex_yield_pct": 21.53,
+      "put_date": "2027-10-15",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 19,
+      "value_today": 684532
+    },
+    {
       "secid": "RU000A10D4D6",
       "isin": "RU000A10D4D6",
       "name": "Минфин Амурской обл. 31002",
@@ -15821,6 +16354,48 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 18,
       "value_today": 169978
+    },
+    {
+      "secid": "RU000A10FH42",
+      "isin": "RU000A10FH42",
+      "name": "СберИОС 001Р-805R 5К ОФЗ ДИС",
+      "shortname": "СберИОС805",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 87.49,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 874.9,
+      "dirty_rub": 874.9,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0114,
+      "event_date": "2027-11-01",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-11-01",
+      "days_to_event": 410,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2027-11-01",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.13,
+      "profit_per_bond_rub": 125.23,
+      "simple_yield_pct": 12.7426,
+      "effective_xirr_pct": 12.6475,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
     },
     {
       "secid": "RU000A105DL4",
@@ -16167,6 +16742,52 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 19,
       "value_today": 634834
+    },
+    {
+      "secid": "RU000A102CT6",
+      "isin": "RU000A102CT6",
+      "name": "Свердловская область 35009",
+      "shortname": "СвердлОбл9",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 400.0,
+      "price_pct": 95.34,
+      "price_source": "OFFER",
+      "nkd_rub": 2.47,
+      "clean_rub": 381.36,
+      "dirty_rub": 383.83,
+      "coupon_pct": 6.25,
+      "current_coupon_yield_pct": 6.5555,
+      "event_date": "2027-11-17",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2027-11-17",
+      "days_to_event": 426,
+      "amortization_count": 2,
+      "amortizations": [
+        {
+          "date": "2026-11-11",
+          "amount": 200.0
+        },
+        {
+          "date": "2027-11-17",
+          "amount": 200.0
+        }
+      ],
+      "coupon_count_to_event": 5,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 418.95,
+      "profit_per_bond_rub": 35.12,
+      "simple_yield_pct": 7.8397,
+      "effective_xirr_pct": 14.7131,
+      "moex_yield_pct": 14.71,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 24,
+      "value_today": 35099
     },
     {
       "secid": "RU000A105H98",
@@ -18117,6 +18738,43 @@
       "value_today": 3937480
     },
     {
+      "secid": "RU000A10FJ65",
+      "isin": "RU000A10FJ65",
+      "name": "ЛК Роделен БО 002P-06",
+      "shortname": "Роделен2P6",
+      "rating": "BBB",
+      "rating_rank": 11,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 88.92,
+      "price_source": "OFFER",
+      "nkd_rub": 13.23,
+      "clean_rub": 889.2,
+      "dirty_rub": 902.43,
+      "coupon_pct": 21.0,
+      "current_coupon_yield_pct": 23.6167,
+      "event_date": "2027-12-22",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2031-05-31",
+      "days_to_event": 461,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 16,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1276.16,
+      "profit_per_bond_rub": 373.73,
+      "simple_yield_pct": 32.7896,
+      "effective_xirr_pct": 36.6088,
+      "moex_yield_pct": 37.13,
+      "put_date": "2027-12-22",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 131,
+      "value_today": 2266437
+    },
+    {
       "secid": "RU000A104WF9",
       "isin": "RU000A104WF9",
       "name": "Славнефть БО 002Р-04",
@@ -19490,6 +20148,48 @@
       "value_today": 32375250
     },
     {
+      "secid": "RU000A10E9Z7",
+      "isin": "RU000A10E9Z7",
+      "name": "МКАО Воксис 001Р-02",
+      "shortname": "МКАОВокс02",
+      "rating": "BBB+",
+      "rating_rank": 12,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 101.68,
+      "price_source": "OFFER",
+      "nkd_rub": 3.29,
+      "clean_rub": 1016.8,
+      "dirty_rub": 1020.09,
+      "coupon_pct": 20.0,
+      "current_coupon_yield_pct": 19.6696,
+      "event_date": "2028-02-03",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-02-03",
+      "days_to_event": 504,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-02-03",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 17,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1279.48,
+      "profit_per_bond_rub": 259.39,
+      "simple_yield_pct": 18.4152,
+      "effective_xirr_pct": 20.2862,
+      "moex_yield_pct": 20.28,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 137,
+      "value_today": 1774266
+    },
+    {
       "secid": "RU000A1099P0",
       "isin": "RU000A1099P0",
       "name": "МФК Быстроденьги 002Р-07",
@@ -19586,6 +20286,48 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10EAC6",
+      "isin": "RU000A10EAC6",
+      "name": "КАМАЗ ПАО БО-П20",
+      "shortname": "КАМАЗ БП20",
+      "rating": "A",
+      "rating_rank": 14,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 99.9,
+      "price_source": "OFFER",
+      "nkd_rub": 1.31,
+      "clean_rub": 999.0,
+      "dirty_rub": 1000.31,
+      "coupon_pct": 15.95,
+      "current_coupon_yield_pct": 15.966,
+      "event_date": "2028-02-06",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-02-06",
+      "days_to_event": 507,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-02-06",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 17,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1222.87,
+      "profit_per_bond_rub": 222.56,
+      "simple_yield_pct": 16.0176,
+      "effective_xirr_pct": 17.2643,
+      "moex_yield_pct": 17.26,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 1378,
+      "value_today": 21205532
+    },
+    {
       "secid": "RU000A0JXZB2",
       "isin": "RU000A0JXZB2",
       "name": "\"Российские ЖД\" БО-001P-04R",
@@ -19621,6 +20363,48 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 14,
       "value_today": 65755
+    },
+    {
+      "secid": "RU000A10EBE0",
+      "isin": "RU000A10EBE0",
+      "name": "Ростелеком ПАО 001P-23R",
+      "shortname": "РостелP23R",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.66,
+      "price_source": "OFFER",
+      "nkd_rub": 0.4,
+      "clean_rub": 1006.6,
+      "dirty_rub": 1007.0,
+      "coupon_pct": 14.55,
+      "current_coupon_yield_pct": 14.4546,
+      "event_date": "2028-02-08",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-02-08",
+      "days_to_event": 509,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-02-08",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 17,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1203.32,
+      "profit_per_bond_rub": 196.32,
+      "simple_yield_pct": 13.9801,
+      "effective_xirr_pct": 14.9664,
+      "moex_yield_pct": 15.08,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 157,
+      "value_today": 2189300
     },
     {
       "secid": "RU000A105WZ4",
@@ -20101,6 +20885,43 @@
       "value_today": 320867
     },
     {
+      "secid": "RU000A10EA40",
+      "isin": "RU000A10EA40",
+      "name": "ГК Азот 001Р-02",
+      "shortname": "ГКАзот1Р02",
+      "rating": "A+",
+      "rating_rank": 15,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 101.73,
+      "price_source": "OFFER",
+      "nkd_rub": 13.11,
+      "clean_rub": 1017.3,
+      "dirty_rub": 1030.41,
+      "coupon_pct": 16.5,
+      "current_coupon_yield_pct": 16.2194,
+      "event_date": "2028-02-14",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2031-01-25",
+      "days_to_event": 515,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 18,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1244.08,
+      "profit_per_bond_rub": 213.67,
+      "simple_yield_pct": 14.6967,
+      "effective_xirr_pct": 16.0933,
+      "moex_yield_pct": 16.33,
+      "put_date": "2028-02-14",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 201,
+      "value_today": 6045246
+    },
+    {
       "secid": "RU000A1053P7",
       "isin": "RU000A1053P7",
       "name": "ГК Сегежа 002P-05R",
@@ -20305,6 +21126,43 @@
       ],
       "num_trades": 90,
       "value_today": 325715
+    },
+    {
+      "secid": "RU000A10EC63",
+      "isin": "RU000A10EC63",
+      "name": "Брусника 002Р-06",
+      "shortname": "Брус 2Р06",
+      "rating": "A-",
+      "rating_rank": 13,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.7,
+      "price_source": "OFFER",
+      "nkd_rub": 14.34,
+      "clean_rub": 1007.0,
+      "dirty_rub": 1021.34,
+      "coupon_pct": 22.75,
+      "current_coupon_yield_pct": 22.5919,
+      "event_date": "2028-02-18",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2029-02-10",
+      "days_to_event": 519,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 18,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1336.6,
+      "profit_per_bond_rub": 315.26,
+      "simple_yield_pct": 21.7082,
+      "effective_xirr_pct": 24.4804,
+      "moex_yield_pct": 24.57,
+      "put_date": "2028-02-18",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 307,
+      "value_today": 4545053
     },
     {
       "secid": "RU000A0ZYVU5",
@@ -20622,6 +21480,43 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 339,
       "value_today": 7346601
+    },
+    {
+      "secid": "RU000A10EDV0",
+      "isin": "RU000A10EDV0",
+      "name": "АйДи Коллект 001P-07",
+      "shortname": "АйДиКол1P7",
+      "rating": "BBB-",
+      "rating_rank": 10,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 99.96,
+      "price_source": "OFFER",
+      "nkd_rub": 12.51,
+      "clean_rub": 999.6,
+      "dirty_rub": 1012.11,
+      "coupon_pct": 20.75,
+      "current_coupon_yield_pct": 20.7583,
+      "event_date": "2028-02-22",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2030-02-06",
+      "days_to_event": 523,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 18,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1306.9,
+      "profit_per_bond_rub": 294.79,
+      "simple_yield_pct": 20.3271,
+      "effective_xirr_pct": 22.6671,
+      "moex_yield_pct": 22.88,
+      "put_date": "2028-02-22",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 288,
+      "value_today": 4741177
     },
     {
       "secid": "RU000A0ZYWU3",
@@ -22477,6 +23372,48 @@
       "value_today": 1403028
     },
     {
+      "secid": "RU000A10EFY9",
+      "isin": "RU000A10EFY9",
+      "name": "СберИОС 001Р-784R 2Г ОФЗ ДИС",
+      "shortname": "СберИОС784",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 82.5,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 825.0,
+      "dirty_rub": 825.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0121,
+      "event_date": "2028-03-20",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-03-20",
+      "days_to_event": 550,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-03-20",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.2,
+      "profit_per_bond_rub": 175.2,
+      "simple_yield_pct": 14.0932,
+      "effective_xirr_pct": 13.6323,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A0JTU85",
       "isin": "RU000A0JTU85",
       "name": "\"Российские ЖД\" ОАО 28 обл.",
@@ -23015,6 +23952,85 @@
       "value_today": 1156195
     },
     {
+      "secid": "RU000A10ETL7",
+      "isin": "RU000A10ETL7",
+      "name": "Ростелеком ПАО 001P-25R",
+      "shortname": "РостелP25R",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 99.3,
+      "price_source": "OFFER",
+      "nkd_rub": 2.24,
+      "clean_rub": 993.0,
+      "dirty_rub": 995.24,
+      "coupon_pct": 13.65,
+      "current_coupon_yield_pct": 13.7462,
+      "event_date": "2028-04-03",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-04-03",
+      "days_to_event": 564,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-04-03",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 19,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1213.18,
+      "profit_per_bond_rub": 217.94,
+      "simple_yield_pct": 14.1717,
+      "effective_xirr_pct": 15.1146,
+      "moex_yield_pct": 15.11,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 185,
+      "value_today": 9989986
+    },
+    {
+      "secid": "RU000A10ESM7",
+      "isin": "RU000A10ESM7",
+      "name": "Мобильные Телесистемы 002Р-18",
+      "shortname": "МТС 2Р-18",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 99.09,
+      "price_source": "OFFER",
+      "nkd_rub": 3.81,
+      "clean_rub": 990.9,
+      "dirty_rub": 994.71,
+      "coupon_pct": 13.9,
+      "current_coupon_yield_pct": 14.0277,
+      "event_date": "2028-04-04",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2036-02-17",
+      "days_to_event": 565,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 19,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1216.98,
+      "profit_per_bond_rub": 222.27,
+      "simple_yield_pct": 14.4354,
+      "effective_xirr_pct": 15.4394,
+      "moex_yield_pct": 15.74,
+      "put_date": "2028-04-04",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 113,
+      "value_today": 147948360
+    },
+    {
       "secid": "RU000A102VD0",
       "isin": "RU000A102VD0",
       "name": "СберИОС 001Р-426R 7Г СШАМ ИНД",
@@ -23384,6 +24400,48 @@
       ],
       "num_trades": 15,
       "value_today": 28029
+    },
+    {
+      "secid": "RU000A10EQB4",
+      "isin": "RU000A10EQB4",
+      "name": "СберИОС 001Р-790R 2Г ОФЗ ДИС",
+      "shortname": "СберИОС790",
+      "rating": "NR",
+      "rating_rank": null,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 85.0,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 850.0,
+      "dirty_rub": 850.0,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0118,
+      "event_date": "2028-04-17",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-04-17",
+      "days_to_event": 578,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-04-17",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 1,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.2,
+      "profit_per_bond_rub": 150.2,
+      "simple_yield_pct": 11.1588,
+      "effective_xirr_pct": 10.822,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
     },
     {
       "secid": "RU000A0JXQ44",
@@ -24535,6 +25593,48 @@
       "value_today": 15286232
     },
     {
+      "secid": "RU000A10F850",
+      "isin": "RU000A10F850",
+      "name": "РОЛЬФ БО 001Р-09",
+      "shortname": "РОЛЬФ 1Р09",
+      "rating": "BBB+",
+      "rating_rank": 12,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 101.07,
+      "price_source": "OFFER",
+      "nkd_rub": 12.82,
+      "clean_rub": 1010.7,
+      "dirty_rub": 1023.52,
+      "coupon_pct": 19.5,
+      "current_coupon_yield_pct": 19.2936,
+      "event_date": "2028-05-15",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-05-15",
+      "days_to_event": 606,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-05-15",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 21,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1336.63,
+      "profit_per_bond_rub": 313.11,
+      "simple_yield_pct": 18.4256,
+      "effective_xirr_pct": 20.4473,
+      "moex_yield_pct": 20.66,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 261,
+      "value_today": 7312752
+    },
+    {
       "secid": "RU000A10B8E7",
       "isin": "RU000A10B8E7",
       "name": "СберИОС 001Р-703R 3Y1M ОФЗ",
@@ -25675,6 +26775,48 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 103,
       "value_today": 553375
+    },
+    {
+      "secid": "RU000A10FEB7",
+      "isin": "RU000A10FEB7",
+      "name": "МКПАО ЯНДЕКС 001Р-05",
+      "shortname": "ЯНДЕКС1Р5",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 99.99,
+      "price_source": "OFFER",
+      "nkd_rub": 0,
+      "clean_rub": 999.9,
+      "dirty_rub": 999.9,
+      "coupon_pct": 13.4,
+      "current_coupon_yield_pct": 13.4013,
+      "event_date": "2028-06-08",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-06-08",
+      "days_to_event": 630,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-06-08",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 21,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1231.21,
+      "profit_per_bond_rub": 231.31,
+      "simple_yield_pct": 13.4026,
+      "effective_xirr_pct": 14.2578,
+      "moex_yield_pct": 14.26,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 152,
+      "value_today": 905994
     },
     {
       "secid": "RU000A108082",
@@ -27181,6 +28323,48 @@
       "unknown_offer_dates_ignored": [],
       "num_trades": 1185,
       "value_today": 17031060
+    },
+    {
+      "secid": "RU000A10E739",
+      "isin": "RU000A10E739",
+      "name": "Ростелеком ПАО 001P-22R",
+      "shortname": "РостелP22R",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 101.17,
+      "price_source": "OFFER",
+      "nkd_rub": 6.06,
+      "clean_rub": 1011.7,
+      "dirty_rub": 1017.76,
+      "coupon_pct": 14.75,
+      "current_coupon_yield_pct": 14.5794,
+      "event_date": "2028-07-23",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-07-23",
+      "days_to_event": 675,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-07-23",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 23,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1278.76,
+      "profit_per_bond_rub": 261.0,
+      "simple_yield_pct": 13.8671,
+      "effective_xirr_pct": 14.9617,
+      "moex_yield_pct": 14.96,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 95,
+      "value_today": 2763074
     },
     {
       "secid": "RU000A103TZ5",
@@ -31550,6 +32734,48 @@
       "value_today": 147430
     },
     {
+      "secid": "RU000A10CL56",
+      "isin": "RU000A10CL56",
+      "name": "СберИОС 001Р-753R 3Y1M ОФЗ",
+      "shortname": "СберИОС753",
+      "rating": "AAA",
+      "rating_rank": 19,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 82.38,
+      "price_source": "PREV/LAST FALLBACK",
+      "nkd_rub": 0,
+      "clean_rub": 823.8,
+      "dirty_rub": 823.8,
+      "coupon_pct": 0.01,
+      "current_coupon_yield_pct": 0.0121,
+      "event_date": "2028-10-13",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-10-13",
+      "days_to_event": 757,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-10-13",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 3,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1000.21,
+      "profit_per_bond_rub": 176.41,
+      "simple_yield_pct": 10.3252,
+      "effective_xirr_pct": 9.8081,
+      "moex_yield_pct": 0.0,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 0,
+      "value_today": 0
+    },
+    {
       "secid": "RU000A10FHY2",
       "isin": "RU000A10FHY2",
       "name": "ЭкоНива 001P-03",
@@ -32693,6 +33919,50 @@
       "value_today": 326405
     },
     {
+      "secid": "RU000A10EPQ4",
+      "isin": "RU000A10EPQ4",
+      "name": "Автодор ГК БО-005Р-16",
+      "shortname": "Автодр5Р16",
+      "rating": "AA",
+      "rating_rank": 17,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 100.96,
+      "price_source": "OFFER",
+      "nkd_rub": 10.13,
+      "clean_rub": 1009.6,
+      "dirty_rub": 1019.73,
+      "coupon_pct": 15.4,
+      "current_coupon_yield_pct": 15.2536,
+      "event_date": "2028-11-11",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-11-11",
+      "days_to_event": 786,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-11-11",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 27,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1341.82,
+      "profit_per_bond_rub": 322.09,
+      "simple_yield_pct": 14.6677,
+      "effective_xirr_pct": 15.9377,
+      "moex_yield_pct": 14.65,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [
+        "2027-03-25"
+      ],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 46,
+      "value_today": 730019
+    },
+    {
       "secid": "RU000A10D616",
       "isin": "RU000A10D616",
       "name": "Балтийский лизинг ООО БО-П20",
@@ -33343,6 +34613,80 @@
       ],
       "num_trades": 0,
       "value_today": 0
+    },
+    {
+      "secid": "RU000A10DTG9",
+      "isin": "RU000A10DTG9",
+      "name": "ВТБ Лизинг 001Р-МБ-04",
+      "shortname": "ВТБЛИЗ 1Р4",
+      "rating": "AA",
+      "rating_rank": 17,
+      "faceunit": "SUR",
+      "current_face": 760.0,
+      "price_pct": 101.64,
+      "price_source": "OFFER",
+      "nkd_rub": 1.72,
+      "clean_rub": 772.464,
+      "dirty_rub": 774.184,
+      "coupon_pct": 16.5,
+      "current_coupon_yield_pct": 16.2338,
+      "event_date": "2028-11-30",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-11-30",
+      "days_to_event": 805,
+      "amortization_count": 9,
+      "amortizations": [
+        {
+          "date": "2026-12-11",
+          "amount": 80.0
+        },
+        {
+          "date": "2027-03-11",
+          "amount": 80.0
+        },
+        {
+          "date": "2027-06-09",
+          "amount": 80.0
+        },
+        {
+          "date": "2027-09-07",
+          "amount": 80.0
+        },
+        {
+          "date": "2027-12-06",
+          "amount": 80.0
+        },
+        {
+          "date": "2028-03-05",
+          "amount": 80.0
+        },
+        {
+          "date": "2028-06-03",
+          "amount": 80.0
+        },
+        {
+          "date": "2028-09-01",
+          "amount": 80.0
+        },
+        {
+          "date": "2028-11-30",
+          "amount": 120.0
+        }
+      ],
+      "coupon_count_to_event": 27,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 921.13,
+      "profit_per_bond_rub": 146.946,
+      "simple_yield_pct": 8.6062,
+      "effective_xirr_pct": 16.1243,
+      "moex_yield_pct": 16.12,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 155,
+      "value_today": 1805207
     },
     {
       "secid": "RU000A103ZJ6",
@@ -34417,6 +35761,131 @@
       "value_today": 0
     },
     {
+      "secid": "RU000A10EA08",
+      "isin": "RU000A10EA08",
+      "name": "Софтлайн 002Р-02",
+      "shortname": "iСЛ 2P2",
+      "rating": "A-",
+      "rating_rank": 13,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 104.64,
+      "price_source": "OFFER",
+      "nkd_rub": 3.21,
+      "clean_rub": 1046.4,
+      "dirty_rub": 1049.61,
+      "coupon_pct": 19.5,
+      "current_coupon_yield_pct": 18.6353,
+      "event_date": "2028-12-20",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-12-20",
+      "days_to_event": 825,
+      "amortization_count": 1,
+      "amortizations": [
+        {
+          "date": "2028-12-20",
+          "amount": 1000.0
+        }
+      ],
+      "coupon_count_to_event": 28,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1444.03,
+      "profit_per_bond_rub": 394.42,
+      "simple_yield_pct": 16.6253,
+      "effective_xirr_pct": 18.4096,
+      "moex_yield_pct": 18.4,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 456,
+      "value_today": 8961683
+    },
+    {
+      "secid": "RU000A10ERE6",
+      "isin": "RU000A10ERE6",
+      "name": "АВТОБАН-Финанс АО БО-П08",
+      "shortname": "АВТОБФ БП8",
+      "rating": "A+",
+      "rating_rank": 15,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 99.9,
+      "price_source": "OFFER",
+      "nkd_rub": 7.87,
+      "clean_rub": 999.0,
+      "dirty_rub": 1006.87,
+      "coupon_pct": 16.9,
+      "current_coupon_yield_pct": 16.9169,
+      "event_date": "2028-12-21",
+      "event_type": "PUT",
+      "event_price_pct": 100.0,
+      "maturity": "2032-03-02",
+      "days_to_event": 826,
+      "amortization_count": 0,
+      "amortizations": [],
+      "coupon_count_to_event": 28,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1388.92,
+      "profit_per_bond_rub": 382.05,
+      "simple_yield_pct": 16.7672,
+      "effective_xirr_pct": 18.2759,
+      "moex_yield_pct": 18.36,
+      "put_date": "2028-12-21",
+      "put_price_pct": 100.0,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 832,
+      "value_today": 18407575
+    },
+    {
+      "secid": "RU000A10FD46",
+      "isin": "RU000A10FD46",
+      "name": "Ред Софт БО 002Р-06",
+      "shortname": "РедСофт2P6",
+      "rating": "BBB+",
+      "rating_rank": 12,
+      "faceunit": "SUR",
+      "current_face": 1000.0,
+      "price_pct": 102.2,
+      "price_source": "OFFER",
+      "nkd_rub": 4.13,
+      "clean_rub": 1022.0,
+      "dirty_rub": 1026.13,
+      "coupon_pct": 16.75,
+      "current_coupon_yield_pct": 16.3894,
+      "event_date": "2028-12-26",
+      "event_type": "MATURITY",
+      "event_price_pct": null,
+      "maturity": "2028-12-26",
+      "days_to_event": 831,
+      "amortization_count": 2,
+      "amortizations": [
+        {
+          "date": "2028-01-31",
+          "amount": 450.0
+        },
+        {
+          "date": "2028-12-26",
+          "amount": 550.0
+        }
+      ],
+      "coupon_count_to_event": 28,
+      "estimated_coupon_count": 0,
+      "future_cash_rub": 1317.36,
+      "profit_per_bond_rub": 291.23,
+      "simple_yield_pct": 12.466,
+      "effective_xirr_pct": 16.5129,
+      "moex_yield_pct": 16.61,
+      "put_date": null,
+      "put_price_pct": null,
+      "call_dates_ignored": [],
+      "unknown_offer_dates_ignored": [],
+      "num_trades": 92,
+      "value_today": 1002094
+    },
+    {
       "secid": "RU000A10A976",
       "isin": "RU000A10A976",
       "name": "Банк ВТБ (ПАО) С-1-1397",
@@ -34870,5 +36339,7 @@
       "num_trades": 64,
       "value_today": 291848
     }
-  ]
+  ],
+  "retry_generated_at_utc": "2026-09-17T07:36:12+00:00",
+  "retry_generated_at_msk": "2026-09-17T10:36:12+03:00"
 }
