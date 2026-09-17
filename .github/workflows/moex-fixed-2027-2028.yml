@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "moex-bridge/screen_fixed_2027_2028.py"
+      - "moex-bridge/retry_fixed_2027_2028.py"
       - ".github/workflows/moex-fixed-2027-2028.yml"
 
 permissions:
@@ -25,6 +26,8 @@ jobs:
           fetch-depth: 0
       - name: Run full fixed screen
         run: python3 moex-bridge/screen_fixed_2027_2028.py
+      - name: Retry transient MOEX errors
+        run: python3 moex-bridge/retry_fixed_2027_2028.py
       - name: Commit screen results
         run: |
           git config user.name "github-actions[bot]"
