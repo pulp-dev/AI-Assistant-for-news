@@ -1,0 +1,31 @@
+name: MOEX fixed 2027-2028 ranked summary
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "moex-bridge/summarize_fixed_2027_2028.py"
+      - ".github/workflows/moex-fixed-2027-2028-summary.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build ranked summary
+        run: python3 moex-bridge/summarize_fixed_2027_2028.py
+      - name: Commit summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moex-bridge/data/fixed_2027_2028_summary.json moex-bridge/data/fixed_2027_2028_ranked.tsv
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update fixed bond 2027-2028 ranked summary"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
