@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ftk-mcp
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: FTK_CRAWL_DELAY_SECONDS
+        value: "3"
+      - key: FTK_SITE_SEARCH
+        value: "true"
