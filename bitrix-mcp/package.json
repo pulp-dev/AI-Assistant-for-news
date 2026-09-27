@@ -1,0 +1,14 @@
+{
+  "name": "indiv-bitrix24-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP proxy for Bitrix24 REST webhooks",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.0"
+  }
+}
