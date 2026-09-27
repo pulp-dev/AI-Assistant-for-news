@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: indiv-bitrix24-mcp
+    runtime: node
+    plan: free
+    rootDir: bitrix-mcp
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BITRIX_BASE
+        sync: false
+      - key: MCP_TOKEN
+        generateValue: true
+      - key: NODE_VERSION
+        value: 20
