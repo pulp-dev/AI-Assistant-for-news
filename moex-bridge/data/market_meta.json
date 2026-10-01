@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-09-30T22:02:04+00:00",
-  "generated_at_msk": "2026-10-01T01:02:04+03:00",
+  "generated_at_utc": "2026-10-01T12:30:56+00:00",
+  "generated_at_msk": "2026-10-01T15:30:56+03:00",
   "source": "MOEX ISS",
   "coverage": [
     "TQCB",
     "TQOB"
   ],
   "board_counts": {
-    "TQCB": 3033,
+    "TQCB": 3032,
     "TQOB": 62
   },
-  "total": 3095,
-  "bond_metadata_generated_at_utc": "2026-09-30T09:45:54+00:00",
-  "with_rating": 921,
-  "with_offer_metadata": 467,
+  "total": 3094,
+  "bond_metadata_generated_at_utc": "2026-10-01T10:12:17+00:00",
+  "with_rating": 1005,
+  "with_offer_metadata": 471,
   "market_data_stale": false,
   "fallback_commit": null,
   "fetch_errors": []
