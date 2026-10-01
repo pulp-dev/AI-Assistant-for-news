@@ -1,11 +1,11 @@
 {
-  "generated_from_snapshot_msk": "2026-10-01T15:38:48+03:00",
-  "generated_from_snapshot_utc": "2026-10-01T12:38:48+00:00",
+  "generated_from_snapshot_msk": "2026-10-01T21:43:24+03:00",
+  "generated_from_snapshot_utc": "2026-10-01T18:43:24+00:00",
   "key_rate_scenario_pct": 14.0,
   "count": 70,
   "rows": [
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-10-01",
       "event_type": "Погашение",
       "name": "Россети Моск. регион 1Р07",
@@ -40,7 +40,7 @@
       "note": ""
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-10-08",
       "event_type": "Погашение",
       "name": "Каршеринг Руссия 001P-04",
@@ -48,14 +48,14 @@
       "rating_input": "A+",
       "formula": "КС + 3.00 п.п.",
       "scenario_coupon_rate_pct": 17.0,
-      "price_pct": 99.26,
+      "price_pct": 99.49,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 11.18,
-      "clean_rub": 992.6,
-      "dirty_rub": 1003.78,
-      "current_coupon_yield_pct": 17.126738,
+      "clean_rub": 994.9,
+      "dirty_rub": 1006.08,
+      "current_coupon_yield_pct": 17.087144,
       "amortizations_to_event": [
         {
           "date": "2026-10-08",
@@ -71,10 +71,10 @@
       "coupon_cash_to_event": 13.972603,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1013.972603,
-      "profit_rub": 10.192603,
-      "simple_yield_pct": 61.771504,
-      "xirr_pct": 84.89167,
-      "moex_yield_pct": 84.89,
+      "profit_rub": 7.892603,
+      "simple_yield_pct": 47.723176,
+      "xirr_pct": 60.860859,
+      "moex_yield_pct": 80.46,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -87,7 +87,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-10-15",
       "event_type": "Погашение",
       "name": "КАМАЗ БО-П13",
@@ -121,7 +121,7 @@
       "profit_rub": 5.905205,
       "simple_yield_pct": 16.464093,
       "xirr_pct": 17.840295,
-      "moex_yield_pct": 21.4,
+      "moex_yield_pct": 21.06,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -134,7 +134,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-10-17",
       "event_type": "Погашение",
       "name": "X5 Финанс 003Р-02",
@@ -142,14 +142,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.10 п.п.",
       "scenario_coupon_rate_pct": 15.1,
-      "price_pct": 100.02,
+      "price_pct": 100.05,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 6.21,
-      "clean_rub": 1000.2,
-      "dirty_rub": 1006.41,
-      "current_coupon_yield_pct": 15.096981,
+      "clean_rub": 1000.5,
+      "dirty_rub": 1006.71,
+      "current_coupon_yield_pct": 15.092454,
       "amortizations_to_event": [
         {
           "date": "2026-10-17",
@@ -165,10 +165,10 @@
       "coupon_cash_to_event": 12.41,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1012.41,
-      "profit_rub": 6.0,
-      "simple_yield_pct": 14.50701,
-      "xirr_pct": 15.562275,
-      "moex_yield_pct": 17.25,
+      "profit_rub": 5.7,
+      "simple_yield_pct": 13.777553,
+      "xirr_pct": 14.7272,
+      "moex_yield_pct": 14.73,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -181,7 +181,7 @@
       "note": ""
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-10-18",
       "event_type": "Погашение",
       "name": "ДОМ.РФ 002P-05",
@@ -228,7 +228,7 @@
       "note": ""
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-10-22",
       "event_type": "Погашение",
       "name": "Россети 001P-14R",
@@ -236,14 +236,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.20 п.п.",
       "scenario_coupon_rate_pct": 15.2,
-      "price_pct": 100.17,
+      "price_pct": 100.3,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 4.16,
-      "clean_rub": 1001.7,
-      "dirty_rub": 1005.86,
-      "current_coupon_yield_pct": 15.174204,
+      "clean_rub": 1003.0,
+      "dirty_rub": 1007.16,
+      "current_coupon_yield_pct": 15.154536,
       "amortizations_to_event": [
         {
           "date": "2026-10-22",
@@ -259,9 +259,9 @@
       "coupon_cash_to_event": 12.493151,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1012.493151,
-      "profit_rub": 6.633151,
-      "simple_yield_pct": 12.034975,
-      "xirr_pct": 12.744574,
+      "profit_rub": 5.333151,
+      "simple_yield_pct": 9.663807,
+      "xirr_pct": 10.118086,
       "moex_yield_pct": 15.94,
       "excluded_coupons": [],
       "projected_coupons": [
@@ -275,7 +275,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-11-04",
       "event_type": "Погашение",
       "name": "РусГидро 002Р-01",
@@ -283,14 +283,14 @@
       "rating_input": "AAA",
       "formula": "КС + 2.00 п.п.",
       "scenario_coupon_rate_pct": 16.0,
-      "price_pct": 100.1,
+      "price_pct": 100.15,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 11.84,
-      "clean_rub": 1001.0,
-      "dirty_rub": 1012.84,
-      "current_coupon_yield_pct": 15.984016,
+      "clean_rub": 1001.5,
+      "dirty_rub": 1013.34,
+      "current_coupon_yield_pct": 15.976036,
       "amortizations_to_event": [
         {
           "date": "2026-11-04",
@@ -306,10 +306,10 @@
       "coupon_cash_to_event": 26.300685,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1026.300685,
-      "profit_rub": 13.460685,
-      "simple_yield_pct": 14.699591,
-      "xirr_pct": 15.923368,
-      "moex_yield_pct": 16.04,
+      "profit_rub": 12.960685,
+      "simple_yield_pct": 14.146588,
+      "xirr_pct": 15.284779,
+      "moex_yield_pct": 15.02,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -328,7 +328,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-11-07",
       "event_type": "Погашение",
       "name": "ЕвразХолдинг Финанс 003P-01",
@@ -362,7 +362,7 @@
       "profit_rub": 15.090685,
       "simple_yield_pct": 15.14789,
       "xirr_pct": 16.406836,
-      "moex_yield_pct": 16.62,
+      "moex_yield_pct": 16.26,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -381,7 +381,7 @@
       "note": "2 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-11-23",
       "event_type": "Погашение",
       "name": "СИБУР 001Р-02",
@@ -434,7 +434,7 @@
       "note": "2 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-09",
       "event_type": "Погашение",
       "name": "РусГидро 002Р-05",
@@ -442,14 +442,14 @@
       "rating_input": "AAA",
       "formula": "КС + 2.75 п.п.",
       "scenario_coupon_rate_pct": 16.75,
-      "price_pct": 100.56,
+      "price_pct": 100.54,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 10.1,
-      "clean_rub": 1005.6,
-      "dirty_rub": 1015.7,
-      "current_coupon_yield_pct": 16.656722,
+      "clean_rub": 1005.4,
+      "dirty_rub": 1015.5,
+      "current_coupon_yield_pct": 16.660036,
       "amortizations_to_event": [
         {
           "date": "2026-12-09",
@@ -465,10 +465,10 @@
       "coupon_cash_to_event": 41.304247,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1041.304247,
-      "profit_rub": 25.604247,
-      "simple_yield_pct": 13.531019,
-      "xirr_pct": 14.572242,
-      "moex_yield_pct": 14.42,
+      "profit_rub": 25.804247,
+      "simple_yield_pct": 13.639398,
+      "xirr_pct": 14.695613,
+      "moex_yield_pct": 15.29,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -493,7 +493,7 @@
       "note": "2 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-12",
       "event_type": "Погашение",
       "name": "Газпром нефть 003P-08R",
@@ -501,14 +501,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.30 п.п.",
       "scenario_coupon_rate_pct": 15.3,
-      "price_pct": 100.17,
+      "price_pct": 100.28,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.96,
-      "clean_rub": 1001.7,
-      "dirty_rub": 1009.66,
-      "current_coupon_yield_pct": 15.274034,
+      "clean_rub": 1002.8,
+      "dirty_rub": 1010.76,
+      "current_coupon_yield_pct": 15.25728,
       "amortizations_to_event": [
         {
           "date": "2026-12-12",
@@ -524,9 +524,9 @@
       "coupon_cash_to_event": 37.726027,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1037.726027,
-      "profit_rub": 28.066027,
-      "simple_yield_pct": 14.290266,
-      "xirr_pct": 15.39295,
+      "profit_rub": 26.966027,
+      "simple_yield_pct": 13.715241,
+      "xirr_pct": 14.738597,
       "moex_yield_pct": 15.35,
       "excluded_coupons": [],
       "projected_coupons": [
@@ -552,7 +552,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-14",
       "event_type": "Погашение",
       "name": "Россети Московский регион 1Р08",
@@ -560,14 +560,14 @@
       "rating_input": "AAA",
       "formula": "КС + 2.90 п.п.",
       "scenario_coupon_rate_pct": 16.9,
-      "price_pct": 100.5,
+      "price_pct": 100.45,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.87,
-      "clean_rub": 1005.0,
-      "dirty_rub": 1012.87,
-      "current_coupon_yield_pct": 16.81592,
+      "clean_rub": 1004.5,
+      "dirty_rub": 1012.37,
+      "current_coupon_yield_pct": 16.824291,
       "amortizations_to_event": [
         {
           "date": "2026-12-14",
@@ -583,10 +583,10 @@
       "coupon_cash_to_event": 41.671233,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1041.671233,
-      "profit_rub": 28.801233,
-      "simple_yield_pct": 14.217635,
-      "xirr_pct": 15.322069,
-      "moex_yield_pct": 15.16,
+      "profit_rub": 29.301233,
+      "simple_yield_pct": 14.471603,
+      "xirr_pct": 15.611998,
+      "moex_yield_pct": 15.51,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -611,7 +611,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-14",
       "event_type": "Погашение",
       "name": "МБЭС 002P-02",
@@ -619,14 +619,14 @@
       "rating_input": "AAA",
       "formula": "КС + 2.50 п.п.",
       "scenario_coupon_rate_pct": 16.5,
-      "price_pct": 100.25,
+      "price_pct": 100.2,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 49.69,
-      "clean_rub": 1002.5,
-      "dirty_rub": 1052.19,
-      "current_coupon_yield_pct": 16.458853,
+      "clean_rub": 1002.0,
+      "dirty_rub": 1051.69,
+      "current_coupon_yield_pct": 16.467066,
       "amortizations_to_event": [
         {
           "date": "2026-12-14",
@@ -642,10 +642,10 @@
       "coupon_cash_to_event": 82.273973,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1082.273973,
-      "profit_rub": 30.083973,
-      "simple_yield_pct": 14.295884,
-      "xirr_pct": 15.137083,
-      "moex_yield_pct": 15.17,
+      "profit_rub": 30.583973,
+      "simple_yield_pct": 14.540393,
+      "xirr_pct": 15.411039,
+      "moex_yield_pct": 16.5,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -658,7 +658,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-15",
       "event_type": "Погашение",
       "name": "МегаФон 002P-04",
@@ -692,7 +692,7 @@
       "profit_rub": 29.616575,
       "simple_yield_pct": 14.491806,
       "xirr_pct": 15.353365,
-      "moex_yield_pct": 14.74,
+      "moex_yield_pct": 15.19,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -705,7 +705,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-15",
       "event_type": "Погашение",
       "name": "ЭН+ Гидро 001РС-06",
@@ -713,14 +713,14 @@
       "rating_input": "A+",
       "formula": "КС + 5.00 п.п.",
       "scenario_coupon_rate_pct": 19.0,
-      "price_pct": 100.86,
+      "price_pct": 100.87,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 8.33,
-      "clean_rub": 1008.6,
-      "dirty_rub": 1016.93,
-      "current_coupon_yield_pct": 18.837993,
+      "clean_rub": 1008.7,
+      "dirty_rub": 1017.03,
+      "current_coupon_yield_pct": 18.836126,
       "amortizations_to_event": [
         {
           "date": "2026-12-15",
@@ -736,9 +736,9 @@
       "coupon_cash_to_event": 46.849315,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1046.849315,
-      "profit_rub": 29.919315,
-      "simple_yield_pct": 14.511815,
-      "xirr_pct": 15.684157,
+      "profit_rub": 29.819315,
+      "simple_yield_pct": 14.46189,
+      "xirr_pct": 15.627005,
       "moex_yield_pct": 15.52,
       "excluded_coupons": [],
       "projected_coupons": [
@@ -764,7 +764,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-24",
       "event_type": "Погашение",
       "name": "Авто Финанс Банк 001Р-11",
@@ -772,14 +772,14 @@
       "rating_input": "AA",
       "formula": "КС + 2.50 п.п.",
       "scenario_coupon_rate_pct": 16.5,
-      "price_pct": 100.27,
+      "price_pct": 100.31,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 3.62,
-      "clean_rub": 1002.7,
-      "dirty_rub": 1006.32,
-      "current_coupon_yield_pct": 16.45557,
+      "clean_rub": 1003.1,
+      "dirty_rub": 1006.72,
+      "current_coupon_yield_pct": 16.449008,
       "amortizations_to_event": [
         {
           "date": "2026-12-24",
@@ -795,10 +795,10 @@
       "coupon_cash_to_event": 41.14,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1041.14,
-      "profit_rub": 34.82,
-      "simple_yield_pct": 15.216243,
-      "xirr_pct": 16.135696,
-      "moex_yield_pct": 16.14,
+      "profit_rub": 34.42,
+      "simple_yield_pct": 15.035468,
+      "xirr_pct": 15.932909,
+      "moex_yield_pct": 15.98,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -811,7 +811,7 @@
       "note": ""
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2026-12-25",
       "event_type": "Погашение",
       "name": "ВТБ Факторинг БО-01",
@@ -845,7 +845,7 @@
       "profit_rub": 31.472055,
       "simple_yield_pct": 13.585962,
       "xirr_pct": 14.508725,
-      "moex_yield_pct": 15.2,
+      "moex_yield_pct": 14.34,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -870,7 +870,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-01-01",
       "event_type": "Погашение",
       "name": "Металлоинвест 001P-08",
@@ -917,7 +917,7 @@
       "note": "1 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-01-21",
       "event_type": "Погашение",
       "name": "РОЛЬФ 001Р-06",
@@ -925,14 +925,14 @@
       "rating_input": "A",
       "formula": "КС + 6.00 п.п.",
       "scenario_coupon_rate_pct": 20.0,
-      "price_pct": 100.37,
+      "price_pct": 100.53,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 4.93,
-      "clean_rub": 1003.7,
-      "dirty_rub": 1008.63,
-      "current_coupon_yield_pct": 19.926273,
+      "clean_rub": 1005.3,
+      "dirty_rub": 1010.23,
+      "current_coupon_yield_pct": 19.894559,
       "amortizations_to_event": [
         {
           "date": "2027-01-21",
@@ -948,10 +948,10 @@
       "coupon_cash_to_event": 65.755068,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1065.755068,
-      "profit_rub": 57.125068,
-      "simple_yield_pct": 18.623647,
-      "xirr_pct": 20.42823,
-      "moex_yield_pct": 20.22,
+      "profit_rub": 55.525068,
+      "simple_yield_pct": 18.073353,
+      "xirr_pct": 19.785594,
+      "moex_yield_pct": 19.54,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -982,7 +982,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-01-25",
       "event_type": "Погашение",
       "name": "КАМАЗ БО-П14",
@@ -990,14 +990,14 @@
       "rating_input": "A",
       "formula": "КС + 3.40 п.п.",
       "scenario_coupon_rate_pct": 17.4,
-      "price_pct": 100.46,
+      "price_pct": 100.49,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 2.38,
-      "clean_rub": 1004.6,
-      "dirty_rub": 1006.98,
-      "current_coupon_yield_pct": 17.320326,
+      "clean_rub": 1004.9,
+      "dirty_rub": 1007.28,
+      "current_coupon_yield_pct": 17.315156,
       "amortizations_to_event": [
         {
           "date": "2027-01-25",
@@ -1013,10 +1013,10 @@
       "coupon_cash_to_event": 57.205479,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1057.205479,
-      "profit_rub": 50.225479,
-      "simple_yield_pct": 15.830633,
-      "xirr_pct": 17.102227,
-      "moex_yield_pct": 16.84,
+      "profit_rub": 49.925479,
+      "simple_yield_pct": 15.731389,
+      "xirr_pct": 16.989102,
+      "moex_yield_pct": 16.76,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1047,7 +1047,7 @@
       "note": "4 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-02-12",
       "event_type": "Погашение",
       "name": "Газпром нефть 003P-10R",
@@ -1055,14 +1055,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.30 п.п.",
       "scenario_coupon_rate_pct": 15.3,
-      "price_pct": 100.1,
+      "price_pct": 100.12,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.13,
-      "clean_rub": 1001.0,
-      "dirty_rub": 1008.13,
-      "current_coupon_yield_pct": 15.284715,
+      "clean_rub": 1001.2,
+      "dirty_rub": 1008.33,
+      "current_coupon_yield_pct": 15.281662,
       "amortizations_to_event": [
         {
           "date": "2027-02-12",
@@ -1078,10 +1078,10 @@
       "coupon_cash_to_event": 62.876712,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1062.876712,
-      "profit_rub": 54.746712,
-      "simple_yield_pct": 14.90331,
-      "xirr_pct": 16.088158,
-      "moex_yield_pct": 15.82,
+      "profit_rub": 54.546712,
+      "simple_yield_pct": 14.84592,
+      "xirr_pct": 16.023182,
+      "moex_yield_pct": 15.75,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1118,7 +1118,7 @@
       "note": "5 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-02-13",
       "event_type": "Погашение",
       "name": "МегаФон 002P-05",
@@ -1126,14 +1126,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.10 п.п.",
       "scenario_coupon_rate_pct": 15.1,
-      "price_pct": 100.1,
+      "price_pct": 100.08,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.03,
-      "clean_rub": 1001.0,
-      "dirty_rub": 1008.03,
-      "current_coupon_yield_pct": 15.084915,
+      "clean_rub": 1000.8,
+      "dirty_rub": 1007.83,
+      "current_coupon_yield_pct": 15.08793,
       "amortizations_to_event": [
         {
           "date": "2027-02-13",
@@ -1149,10 +1149,10 @@
       "coupon_cash_to_event": 62.468493,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1062.468493,
-      "profit_rub": 54.438493,
-      "simple_yield_pct": 14.710272,
-      "xirr_pct": 15.673921,
-      "moex_yield_pct": 15.39,
+      "profit_rub": 54.638493,
+      "simple_yield_pct": 14.767246,
+      "xirr_pct": 15.737491,
+      "moex_yield_pct": 15.68,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1171,7 +1171,7 @@
       "note": "2 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-03-06",
       "event_type": "Погашение",
       "name": "РУСАЛ 001P-10",
@@ -1179,14 +1179,14 @@
       "rating_input": "A+",
       "formula": "КС + 2.25 п.п.",
       "scenario_coupon_rate_pct": 16.25,
-      "price_pct": 100.35,
+      "price_pct": 100.2,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 11.13,
-      "clean_rub": 1003.5,
-      "dirty_rub": 1014.63,
-      "current_coupon_yield_pct": 16.193323,
+      "clean_rub": 1002.0,
+      "dirty_rub": 1013.13,
+      "current_coupon_yield_pct": 16.217565,
       "amortizations_to_event": [
         {
           "date": "2027-03-06",
@@ -1202,10 +1202,10 @@
       "coupon_cash_to_event": 80.136986,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1080.136986,
-      "profit_rub": 65.506986,
-      "simple_yield_pct": 15.203413,
-      "xirr_pct": 16.525535,
-      "moex_yield_pct": 16.21,
+      "profit_rub": 67.006986,
+      "simple_yield_pct": 15.57457,
+      "xirr_pct": 16.948092,
+      "moex_yield_pct": 16.66,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1248,7 +1248,7 @@
       "note": "6 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-03-10",
       "event_type": "Погашение",
       "name": "Металлоинвест 001P-13",
@@ -1325,7 +1325,7 @@
       "note": "6 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-03-11",
       "event_type": "Погашение",
       "name": "Синара ТМ 1P5",
@@ -1333,14 +1333,14 @@
       "rating_input": "A",
       "formula": "КС + 5.00 п.п.",
       "scenario_coupon_rate_pct": 19.0,
-      "price_pct": 101.39,
+      "price_pct": 101.37,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 10.41,
-      "clean_rub": 1013.9,
-      "dirty_rub": 1024.31,
-      "current_coupon_yield_pct": 18.739521,
+      "clean_rub": 1013.7,
+      "dirty_rub": 1024.11,
+      "current_coupon_yield_pct": 18.743218,
       "amortizations_to_event": [
         {
           "date": "2027-03-11",
@@ -1356,10 +1356,10 @@
       "coupon_cash_to_event": 93.69863,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1093.69863,
-      "profit_rub": 69.38863,
-      "simple_yield_pct": 15.453604,
-      "xirr_pct": 16.874367,
-      "moex_yield_pct": 16.56,
+      "profit_rub": 69.58863,
+      "simple_yield_pct": 15.501173,
+      "xirr_pct": 16.928724,
+      "moex_yield_pct": 16.64,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1402,7 +1402,7 @@
       "note": "6 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-04-08",
       "event_type": "Погашение",
       "name": "Балтийский лизинг БО-П10",
@@ -1410,14 +1410,14 @@
       "rating_input": "AA-",
       "formula": "КС + 2.30 п.п.",
       "scenario_coupon_rate_pct": 16.3,
-      "price_pct": 89.19,
+      "price_pct": 89.77,
       "price_source": "OFFER",
       "current_face": 700.0,
       "initial_face": 1000.0,
       "nkd": 6.88,
-      "clean_rub": 624.33,
-      "dirty_rub": 631.21,
-      "current_coupon_yield_pct": 18.275591,
+      "clean_rub": 628.39,
+      "dirty_rub": 635.27,
+      "current_coupon_yield_pct": 18.157514,
       "amortizations_to_event": [
         {
           "date": "2026-10-10",
@@ -1457,10 +1457,10 @@
       "coupon_cash_to_event": 65.646575,
       "principal_cash_to_event": 700.0,
       "total_future_cash": 765.646575,
-      "profit_rub": 134.436575,
-      "simple_yield_pct": 41.350292,
-      "xirr_pct": 111.104198,
-      "moex_yield_pct": 83.75,
+      "profit_rub": 130.376575,
+      "simple_yield_pct": 39.845221,
+      "xirr_pct": 105.731715,
+      "moex_yield_pct": 78.51,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1509,13 +1509,90 @@
       "note": "7 куп. рассчитано по КС=14%+спред"
     },
     {
-      "isin": "RU000A10BF48",
-      "name": "Яндекс 001Р-01",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-04-11",
-      "error": "RemoteDisconnected: Remote end closed connection without response"
+      "event_type": "Погашение",
+      "name": "Яндекс 001Р-01",
+      "isin": "RU000A10BF48",
+      "rating_input": "AAA",
+      "formula": "КС + 1.70 п.п.",
+      "scenario_coupon_rate_pct": 15.7,
+      "price_pct": 100.66,
+      "price_source": "OFFER",
+      "current_face": 1000.0,
+      "initial_face": 1000.0,
+      "nkd": 8.17,
+      "clean_rub": 1006.6,
+      "dirty_rub": 1014.77,
+      "current_coupon_yield_pct": 15.597059,
+      "amortizations_to_event": [
+        {
+          "date": "2027-04-11",
+          "amount": 1000.0
+        }
+      ],
+      "put_offers": [],
+      "call_offers": [],
+      "put_price_at_event": null,
+      "maturity": "2027-04-11",
+      "settle_date": "2026-10-02",
+      "days": 191,
+      "coupon_cash_to_event": 90.328767,
+      "principal_cash_to_event": 1000.0,
+      "total_future_cash": 1090.328767,
+      "profit_rub": 75.558767,
+      "simple_yield_pct": 14.229077,
+      "xirr_pct": 15.3683,
+      "moex_yield_pct": 14.86,
+      "excluded_coupons": [],
+      "projected_coupons": [
+        {
+          "date": "2026-10-13",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2026-10-12"
+        },
+        {
+          "date": "2026-11-12",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2026-11-11"
+        },
+        {
+          "date": "2026-12-12",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2026-12-11"
+        },
+        {
+          "date": "2027-01-11",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2027-01-08"
+        },
+        {
+          "date": "2027-02-10",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2027-02-09"
+        },
+        {
+          "date": "2027-03-12",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2027-03-11"
+        },
+        {
+          "date": "2027-04-11",
+          "amount": 12.90411,
+          "estimated": true,
+          "recorddate": "2027-04-09"
+        }
+      ],
+      "note": "7 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-04-15",
       "event_type": "Погашение",
       "name": "МегаФон 002P-07",
@@ -1549,7 +1626,7 @@
       "profit_rub": 79.235616,
       "simple_yield_pct": 14.326973,
       "xirr_pct": 15.62831,
-      "moex_yield_pct": 15.26,
+      "moex_yield_pct": 15.39,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1574,7 +1651,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-05-20",
       "event_type": "Погашение",
       "name": "Ростелеком 001P-07R",
@@ -1608,7 +1685,7 @@
       "profit_rub": 94.777671,
       "simple_yield_pct": 14.761661,
       "xirr_pct": 15.866858,
-      "moex_yield_pct": 15.46,
+      "moex_yield_pct": 15.18,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1633,7 +1710,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-05-23",
       "event_type": "Погашение",
       "name": "Селектел 001P-05R",
@@ -1641,14 +1718,14 @@
       "rating_input": "AA-",
       "formula": "КС + 4.00 п.п.",
       "scenario_coupon_rate_pct": 18.0,
-      "price_pct": 101.17,
+      "price_pct": 101.29,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 3.45,
-      "clean_rub": 1011.7,
-      "dirty_rub": 1015.15,
-      "current_coupon_yield_pct": 17.791836,
+      "clean_rub": 1012.9,
+      "dirty_rub": 1016.35,
+      "current_coupon_yield_pct": 17.770757,
       "amortizations_to_event": [
         {
           "date": "2027-05-23",
@@ -1664,10 +1741,10 @@
       "coupon_cash_to_event": 118.356164,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1118.356164,
-      "profit_rub": 103.206164,
-      "simple_yield_pct": 15.926207,
-      "xirr_pct": 17.294778,
-      "moex_yield_pct": 16.93,
+      "profit_rub": 102.006164,
+      "simple_yield_pct": 15.722444,
+      "xirr_pct": 17.066341,
+      "moex_yield_pct": 16.52,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1722,7 +1799,7 @@
       "note": "8 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-05-30",
       "event_type": "Погашение",
       "name": "Россети Моск. регион 1Р06",
@@ -1811,7 +1888,7 @@
       "note": "7 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-06-09",
       "event_type": "Погашение",
       "name": "Балтийский лизинг БО-П11",
@@ -1819,14 +1896,14 @@
       "rating_input": "AA-",
       "formula": "КС + 2.30 п.п.",
       "scenario_coupon_rate_pct": 16.3,
-      "price_pct": 72.89,
+      "price_pct": 72.99,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 8.93,
-      "clean_rub": 728.9,
-      "dirty_rub": 737.83,
-      "current_coupon_yield_pct": 22.362464,
+      "clean_rub": 729.9,
+      "dirty_rub": 738.83,
+      "current_coupon_yield_pct": 22.331826,
       "amortizations_to_event": [
         {
           "date": "2027-06-09",
@@ -1842,10 +1919,10 @@
       "coupon_cash_to_event": 120.575342,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1120.575342,
-      "profit_rub": 382.745342,
-      "simple_yield_pct": 75.736714,
-      "xirr_pct": 91.323088,
-      "moex_yield_pct": 91.02,
+      "profit_rub": 381.745342,
+      "simple_yield_pct": 75.436596,
+      "xirr_pct": 90.91742,
+      "moex_yield_pct": 89.97,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -1906,7 +1983,7 @@
       "note": "9 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-06-17",
       "event_type": "Погашение",
       "name": "РУСАЛ 001P-09",
@@ -1914,14 +1991,14 @@
       "rating_input": "A+",
       "formula": "КС + 2.20 п.п.",
       "scenario_coupon_rate_pct": 16.2,
-      "price_pct": 100.14,
+      "price_pct": 100.11,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 5.33,
-      "clean_rub": 1001.4,
-      "dirty_rub": 1006.73,
-      "current_coupon_yield_pct": 16.177352,
+      "clean_rub": 1001.1,
+      "dirty_rub": 1006.43,
+      "current_coupon_yield_pct": 16.1822,
       "amortizations_to_event": [
         {
           "date": "2027-06-17",
@@ -1937,10 +2014,10 @@
       "coupon_cash_to_event": 119.835616,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1119.835616,
-      "profit_rub": 113.105616,
-      "simple_yield_pct": 15.894407,
-      "xirr_pct": 17.211991,
-      "moex_yield_pct": 16.66,
+      "profit_rub": 113.405616,
+      "simple_yield_pct": 15.941315,
+      "xirr_pct": 17.264207,
+      "moex_yield_pct": 16.71,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2001,7 +2078,7 @@
       "note": "9 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-06-18",
       "event_type": "Погашение",
       "name": "Авто Финанс Банк 001Р-12",
@@ -2009,14 +2086,14 @@
       "rating_input": "AA",
       "formula": "КС + 2.20 п.п.",
       "scenario_coupon_rate_pct": 16.2,
-      "price_pct": 100.54,
+      "price_pct": 100.55,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 6.21,
-      "clean_rub": 1005.4,
-      "dirty_rub": 1011.61,
-      "current_coupon_yield_pct": 16.11299,
+      "clean_rub": 1005.5,
+      "dirty_rub": 1011.71,
+      "current_coupon_yield_pct": 16.111387,
       "amortizations_to_event": [
         {
           "date": "2027-06-18",
@@ -2032,9 +2109,9 @@
       "coupon_cash_to_event": 121.168082,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1121.168082,
-      "profit_rub": 109.558082,
-      "simple_yield_pct": 15.262455,
-      "xirr_pct": 16.277536,
+      "profit_rub": 109.458082,
+      "simple_yield_pct": 15.247017,
+      "xirr_pct": 16.26066,
       "moex_yield_pct": 15.72,
       "excluded_coupons": [],
       "projected_coupons": [
@@ -2060,7 +2137,7 @@
       "note": "2 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-06-18",
       "event_type": "Погашение",
       "name": "Биннофарм 002Р-01",
@@ -2155,7 +2232,7 @@
       "note": "9 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-06-24",
       "event_type": "Погашение",
       "name": "Европлан 001P-07",
@@ -2163,14 +2240,14 @@
       "rating_input": "AA",
       "formula": "КС + 1.90 п.п.",
       "scenario_coupon_rate_pct": 15.9,
-      "price_pct": 100.28,
+      "price_pct": 100.3,
       "price_source": "OFFER",
       "current_face": 750.0,
       "initial_face": 1000.0,
       "nkd": 1.63,
-      "clean_rub": 752.1,
-      "dirty_rub": 753.73,
-      "current_coupon_yield_pct": 15.855604,
+      "clean_rub": 752.25,
+      "dirty_rub": 753.88,
+      "current_coupon_yield_pct": 15.852443,
       "amortizations_to_event": [
         {
           "date": "2026-12-26",
@@ -2194,10 +2271,10 @@
       "coupon_cash_to_event": 88.212329,
       "principal_cash_to_event": 750.0,
       "total_future_cash": 838.212329,
-      "profit_rub": 84.482329,
-      "simple_yield_pct": 15.438214,
-      "xirr_pct": 25.602189,
-      "moex_yield_pct": 15.98,
+      "profit_rub": 84.332329,
+      "simple_yield_pct": 15.407737,
+      "xirr_pct": 25.548022,
+      "moex_yield_pct": 15.93,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2258,7 +2335,7 @@
       "note": "9 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-07-04",
       "event_type": "Погашение",
       "name": "Группа Позитив 001Р-01",
@@ -2292,7 +2369,7 @@
       "profit_rub": 112.386986,
       "simple_yield_pct": 14.672521,
       "xirr_pct": 15.923172,
-      "moex_yield_pct": 15.52,
+      "moex_yield_pct": 15.57,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2359,7 +2436,7 @@
       "note": "9 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-07-15",
       "event_type": "Погашение",
       "name": "Черкизово 001Р-07",
@@ -2367,14 +2444,14 @@
       "rating_input": "AA",
       "formula": "КС + 1.35 п.п.",
       "scenario_coupon_rate_pct": 15.35,
-      "price_pct": 100.35,
+      "price_pct": 100.3,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 5.89,
-      "clean_rub": 1003.5,
-      "dirty_rub": 1009.39,
-      "current_coupon_yield_pct": 15.296462,
+      "clean_rub": 1003.0,
+      "dirty_rub": 1008.89,
+      "current_coupon_yield_pct": 15.304088,
       "amortizations_to_event": [
         {
           "date": "2027-07-15",
@@ -2390,10 +2467,10 @@
       "coupon_cash_to_event": 126.164384,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1126.164384,
-      "profit_rub": 116.774384,
-      "simple_yield_pct": 14.764387,
-      "xirr_pct": 15.929273,
-      "moex_yield_pct": 15.33,
+      "profit_rub": 117.274384,
+      "simple_yield_pct": 14.834953,
+      "xirr_pct": 16.007018,
+      "moex_yield_pct": 15.38,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2460,7 +2537,7 @@
       "note": "10 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-07-22",
       "event_type": "Погашение",
       "name": "Самолет БО-П14",
@@ -2468,14 +2545,14 @@
       "rating_input": "A+",
       "formula": "КС + 2.75 п.п.",
       "scenario_coupon_rate_pct": 16.75,
-      "price_pct": 53.57,
+      "price_pct": 55.36,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 3.21,
-      "clean_rub": 535.7,
-      "dirty_rub": 538.91,
-      "current_coupon_yield_pct": 31.2675,
+      "clean_rub": 553.6,
+      "dirty_rub": 556.81,
+      "current_coupon_yield_pct": 30.256503,
       "amortizations_to_event": [
         {
           "date": "2027-07-22",
@@ -2491,10 +2568,10 @@
       "coupon_cash_to_event": 137.671233,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1137.671233,
-      "profit_rub": 598.761233,
-      "simple_yield_pct": 138.408472,
-      "xirr_pct": 172.517447,
-      "moex_yield_pct": 170.58,
+      "profit_rub": 580.861233,
+      "simple_yield_pct": 129.954287,
+      "xirr_pct": 160.606751,
+      "moex_yield_pct": 158.96,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2561,7 +2638,7 @@
       "note": "10 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-07-27",
       "event_type": "Погашение",
       "name": "Акрон 001Р-06",
@@ -2607,7 +2684,7 @@
       "profit_rub": 100.264658,
       "simple_yield_pct": 15.102487,
       "xirr_pct": 30.498601,
-      "moex_yield_pct": 14.06,
+      "moex_yield_pct": 14.04,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2674,7 +2751,7 @@
       "note": "10 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-02",
       "event_type": "Погашение",
       "name": "Практика ЛК 001Р-03",
@@ -2744,7 +2821,7 @@
       "profit_rub": 21.9294,
       "simple_yield_pct": 9.41286,
       "xirr_pct": 18.712458,
-      "moex_yield_pct": 19.37,
+      "moex_yield_pct": 18.71,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2811,7 +2888,7 @@
       "note": ""
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-04",
       "event_type": "Погашение",
       "name": "Ростелеком 001P-09R",
@@ -2819,14 +2896,14 @@
       "rating_input": "AA+",
       "formula": "КС + 1.15 п.п.",
       "scenario_coupon_rate_pct": 15.15,
-      "price_pct": 100.1,
+      "price_pct": 100.09,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 24.07,
-      "clean_rub": 1001.0,
-      "dirty_rub": 1025.07,
-      "current_coupon_yield_pct": 15.134865,
+      "clean_rub": 1000.9,
+      "dirty_rub": 1024.97,
+      "current_coupon_yield_pct": 15.136377,
       "amortizations_to_event": [
         {
           "date": "2027-08-04",
@@ -2842,10 +2919,10 @@
       "coupon_cash_to_event": 151.084932,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1151.084932,
-      "profit_rub": 126.014932,
-      "simple_yield_pct": 14.663577,
-      "xirr_pct": 15.866592,
-      "moex_yield_pct": 15.3,
+      "profit_rub": 126.114932,
+      "simple_yield_pct": 14.676645,
+      "xirr_pct": 15.880988,
+      "moex_yield_pct": 15.24,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2876,7 +2953,7 @@
       "note": "4 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-05",
       "event_type": "Погашение",
       "name": "НоваБев Групп 002P-07",
@@ -2884,14 +2961,14 @@
       "rating_input": "AA",
       "formula": "КС + 1.40 п.п.",
       "scenario_coupon_rate_pct": 15.4,
-      "price_pct": 100.17,
+      "price_pct": 100.11,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 9.7,
-      "clean_rub": 1001.7,
-      "dirty_rub": 1011.4,
-      "current_coupon_yield_pct": 15.373864,
+      "clean_rub": 1001.1,
+      "dirty_rub": 1010.8,
+      "current_coupon_yield_pct": 15.383079,
       "amortizations_to_event": [
         {
           "date": "2027-08-05",
@@ -2907,10 +2984,10 @@
       "coupon_cash_to_event": 139.235342,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1139.235342,
-      "profit_rub": 127.835342,
-      "simple_yield_pct": 15.027353,
-      "xirr_pct": 16.286343,
-      "moex_yield_pct": 15.64,
+      "profit_rub": 128.435342,
+      "simple_yield_pct": 15.106846,
+      "xirr_pct": 16.374091,
+      "moex_yield_pct": 15.63,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -2983,7 +3060,7 @@
       "note": "10 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-08",
       "event_type": "Погашение",
       "name": "Совкомбанк Лизинг БО-П07",
@@ -2991,14 +3068,14 @@
       "rating_input": "AA-",
       "formula": "КС + 2.00 п.п.",
       "scenario_coupon_rate_pct": 16.0,
-      "price_pct": 100.25,
+      "price_pct": 100.2,
       "price_source": "OFFER",
       "current_face": 615.0,
       "initial_face": 1000.0,
       "nkd": 5.39,
-      "clean_rub": 616.5375,
-      "dirty_rub": 621.9275,
-      "current_coupon_yield_pct": 15.9601,
+      "clean_rub": 616.23,
+      "dirty_rub": 621.62,
+      "current_coupon_yield_pct": 15.968064,
       "amortizations_to_event": [
         {
           "date": "2026-10-12",
@@ -3054,10 +3131,10 @@
       "coupon_cash_to_event": 88.964384,
       "principal_cash_to_event": 615.0,
       "total_future_cash": 703.964384,
-      "profit_rub": 82.036884,
-      "simple_yield_pct": 15.531041,
-      "xirr_pct": 33.010303,
-      "moex_yield_pct": 16.06,
+      "profit_rub": 82.344384,
+      "simple_yield_pct": 15.596968,
+      "xirr_pct": 33.165355,
+      "moex_yield_pct": 16.39,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3130,7 +3207,7 @@
       "note": "11 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-19",
       "event_type": "Погашение",
       "name": "Интерлизинг 001Р-09",
@@ -3277,7 +3354,7 @@
       "note": "10 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-20",
       "event_type": "Погашение",
       "name": "ТрансКонтейнер П02-01",
@@ -3285,14 +3362,14 @@
       "rating_input": "AA-",
       "formula": "КС + 1.75 п.п.",
       "scenario_coupon_rate_pct": 15.75,
-      "price_pct": 98.49,
+      "price_pct": 98.53,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 3.45,
-      "clean_rub": 984.9,
-      "dirty_rub": 988.35,
-      "current_coupon_yield_pct": 15.991471,
+      "clean_rub": 985.3,
+      "dirty_rub": 988.75,
+      "current_coupon_yield_pct": 15.984979,
       "amortizations_to_event": [
         {
           "date": "2027-08-20",
@@ -3308,10 +3385,10 @@
       "coupon_cash_to_event": 142.39726,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1142.39726,
-      "profit_rub": 154.04726,
-      "simple_yield_pct": 17.667708,
-      "xirr_pct": 19.103387,
-      "moex_yield_pct": 18.42,
+      "profit_rub": 153.64726,
+      "simple_yield_pct": 17.614703,
+      "xirr_pct": 19.045059,
+      "moex_yield_pct": 18.44,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3384,7 +3461,7 @@
       "note": "11 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-08-25",
       "event_type": "Погашение",
       "name": "Балтийский лизинг БО-П12",
@@ -3392,14 +3469,14 @@
       "rating_input": "AA-",
       "formula": "КС + 2.30 п.п.",
       "scenario_coupon_rate_pct": 16.3,
-      "price_pct": 73.63,
+      "price_pct": 73.24,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 1.34,
-      "clean_rub": 736.3,
-      "dirty_rub": 737.64,
-      "current_coupon_yield_pct": 22.137716,
+      "clean_rub": 732.4,
+      "dirty_rub": 733.74,
+      "current_coupon_yield_pct": 22.255598,
       "amortizations_to_event": [
         {
           "date": "2027-02-26",
@@ -3419,10 +3496,10 @@
       "coupon_cash_to_event": 147.369863,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1147.369863,
-      "profit_rub": 409.729863,
-      "simple_yield_pct": 62.00094,
-      "xirr_pct": 107.64658,
-      "moex_yield_pct": 96.26,
+      "profit_rub": 413.629863,
+      "simple_yield_pct": 62.92378,
+      "xirr_pct": 109.550207,
+      "moex_yield_pct": 97.37,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3495,7 +3572,7 @@
       "note": "11 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-02",
       "event_type": "Погашение",
       "name": "Ростелеком 001P-08R",
@@ -3503,14 +3580,14 @@
       "rating_input": "AA+",
       "formula": "КС + 1.15 п.п.",
       "scenario_coupon_rate_pct": 15.15,
-      "price_pct": 100.33,
+      "price_pct": 100.32,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 12.04,
-      "clean_rub": 1003.3,
-      "dirty_rub": 1015.34,
-      "current_coupon_yield_pct": 15.100169,
+      "clean_rub": 1003.2,
+      "dirty_rub": 1015.24,
+      "current_coupon_yield_pct": 15.101675,
       "amortizations_to_event": [
         {
           "date": "2027-09-02",
@@ -3526,10 +3603,10 @@
       "coupon_cash_to_event": 151.084932,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1151.084932,
-      "profit_rub": 135.744932,
-      "simple_yield_pct": 14.566667,
-      "xirr_pct": 15.577073,
-      "moex_yield_pct": 15.54,
+      "profit_rub": 135.844932,
+      "simple_yield_pct": 14.578834,
+      "xirr_pct": 15.590237,
+      "moex_yield_pct": 15.45,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3560,7 +3637,7 @@
       "note": "4 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-09",
       "event_type": "Погашение",
       "name": "РОЛЬФ 001Р-03",
@@ -3568,14 +3645,14 @@
       "rating_input": "A",
       "formula": "КС + 3.00 п.п.",
       "scenario_coupon_rate_pct": 17.0,
-      "price_pct": 96.49,
+      "price_pct": 95.99,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 8.38,
-      "clean_rub": 964.9,
-      "dirty_rub": 973.28,
-      "current_coupon_yield_pct": 17.618406,
+      "clean_rub": 959.9,
+      "dirty_rub": 968.28,
+      "current_coupon_yield_pct": 17.710178,
       "amortizations_to_event": [
         {
           "date": "2027-09-09",
@@ -3591,10 +3668,10 @@
       "coupon_cash_to_event": 167.66863,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1167.66863,
-      "profit_rub": 194.38863,
-      "simple_yield_pct": 21.315711,
-      "xirr_pct": 23.339229,
-      "moex_yield_pct": 22.51,
+      "profit_rub": 199.38863,
+      "simple_yield_pct": 21.976888,
+      "xirr_pct": 24.076881,
+      "moex_yield_pct": 24.28,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3673,7 +3750,7 @@
       "note": "11 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-13",
       "event_type": "Погашение",
       "name": "Ростелеком 001P-11R",
@@ -3681,14 +3758,14 @@
       "rating_input": "AA+",
       "formula": "КС + 1.20 п.п.",
       "scenario_coupon_rate_pct": 15.2,
-      "price_pct": 100.17,
+      "price_pct": 100.15,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.5,
-      "clean_rub": 1001.7,
-      "dirty_rub": 1009.2,
-      "current_coupon_yield_pct": 15.174204,
+      "clean_rub": 1001.5,
+      "dirty_rub": 1009.0,
+      "current_coupon_yield_pct": 15.177234,
       "amortizations_to_event": [
         {
           "date": "2027-09-13",
@@ -3704,10 +3781,10 @@
       "coupon_cash_to_event": 151.583562,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1151.583562,
-      "profit_rub": 142.383562,
-      "simple_yield_pct": 14.883305,
-      "xirr_pct": 15.856028,
-      "moex_yield_pct": 15.18,
+      "profit_rub": 142.583562,
+      "simple_yield_pct": 14.907165,
+      "xirr_pct": 15.881696,
+      "moex_yield_pct": 15.39,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3738,7 +3815,7 @@
       "note": "4 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-14",
       "event_type": "Погашение",
       "name": "КАМАЗ БО-П12",
@@ -3746,14 +3823,14 @@
       "rating_input": "A",
       "formula": "КС + 1.50 п.п.",
       "scenario_coupon_rate_pct": 15.5,
-      "price_pct": 96.55,
+      "price_pct": 96.52,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.22,
-      "clean_rub": 965.5,
-      "dirty_rub": 972.72,
-      "current_coupon_yield_pct": 16.053858,
+      "clean_rub": 965.2,
+      "dirty_rub": 972.42,
+      "current_coupon_yield_pct": 16.058848,
       "amortizations_to_event": [
         {
           "date": "2027-09-14",
@@ -3769,10 +3846,10 @@
       "coupon_cash_to_event": 154.575342,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1154.575342,
-      "profit_rub": 181.855342,
-      "simple_yield_pct": 19.665347,
-      "xirr_pct": 21.029259,
-      "moex_yield_pct": 20.28,
+      "profit_rub": 182.155342,
+      "simple_yield_pct": 19.703865,
+      "xirr_pct": 21.070967,
+      "moex_yield_pct": 20.35,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3803,7 +3880,7 @@
       "note": "4 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-16",
       "event_type": "Погашение",
       "name": "АФК Система 002Р-05",
@@ -3811,14 +3888,14 @@
       "rating_input": "AA-",
       "formula": "КС + 3.50 п.п.",
       "scenario_coupon_rate_pct": 17.5,
-      "price_pct": 98.99,
+      "price_pct": 98.94,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 5.27,
-      "clean_rub": 989.9,
-      "dirty_rub": 995.17,
-      "current_coupon_yield_pct": 17.678553,
+      "clean_rub": 989.4,
+      "dirty_rub": 994.67,
+      "current_coupon_yield_pct": 17.687487,
       "amortizations_to_event": [
         {
           "date": "2027-09-16",
@@ -3834,10 +3911,10 @@
       "coupon_cash_to_event": 172.60274,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1172.60274,
-      "profit_rub": 177.43274,
-      "simple_yield_pct": 18.646783,
-      "xirr_pct": 20.342655,
-      "moex_yield_pct": 19.62,
+      "profit_rub": 177.93274,
+      "simple_yield_pct": 18.708729,
+      "xirr_pct": 20.411222,
+      "moex_yield_pct": 19.81,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3916,7 +3993,7 @@
       "note": "12 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-17",
       "event_type": "Погашение",
       "name": "Авто Финанс Банк 001Р-13",
@@ -3924,14 +4001,14 @@
       "rating_input": "AA",
       "formula": "КС + 2.30 п.п.",
       "scenario_coupon_rate_pct": 16.3,
-      "price_pct": 100.99,
+      "price_pct": 100.97,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 6.25,
-      "clean_rub": 1009.9,
-      "dirty_rub": 1016.15,
-      "current_coupon_yield_pct": 16.140212,
+      "clean_rub": 1009.7,
+      "dirty_rub": 1015.95,
+      "current_coupon_yield_pct": 16.143409,
       "amortizations_to_event": [
         {
           "date": "2027-09-17",
@@ -3947,10 +4024,10 @@
       "coupon_cash_to_event": 162.555068,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1162.555068,
-      "profit_rub": 146.405068,
-      "simple_yield_pct": 15.025299,
-      "xirr_pct": 16.045399,
-      "moex_yield_pct": 15.34,
+      "profit_rub": 146.605068,
+      "simple_yield_pct": 15.048786,
+      "xirr_pct": 16.070717,
+      "moex_yield_pct": 15.36,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -3981,7 +4058,7 @@
       "note": "3 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-17",
       "event_type": "Погашение",
       "name": "ЯТЭК 001Р-04",
@@ -3989,14 +4066,14 @@
       "rating_input": "A",
       "formula": "КС + 2.50 п.п.",
       "scenario_coupon_rate_pct": 16.5,
-      "price_pct": 100.34,
+      "price_pct": 100.35,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 4.52,
-      "clean_rub": 1003.4,
-      "dirty_rub": 1007.92,
-      "current_coupon_yield_pct": 16.44409,
+      "clean_rub": 1003.5,
+      "dirty_rub": 1008.02,
+      "current_coupon_yield_pct": 16.442451,
       "amortizations_to_event": [
         {
           "date": "2027-09-17",
@@ -4012,10 +4089,10 @@
       "coupon_cash_to_event": 162.738082,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1162.738082,
-      "profit_rub": 154.818082,
-      "simple_yield_pct": 16.018448,
-      "xirr_pct": 17.359148,
-      "moex_yield_pct": 16.63,
+      "profit_rub": 154.718082,
+      "simple_yield_pct": 16.006513,
+      "xirr_pct": 17.346061,
+      "moex_yield_pct": 16.58,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4094,7 +4171,7 @@
       "note": "11 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-22",
       "event_type": "Погашение",
       "name": "ВИС Финанс БО-П06",
@@ -4102,14 +4179,14 @@
       "rating_input": "A+",
       "formula": "КС + 3.25 п.п.",
       "scenario_coupon_rate_pct": 17.25,
-      "price_pct": 98.86,
+      "price_pct": 98.81,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 4.23,
-      "clean_rub": 988.6,
-      "dirty_rub": 992.83,
-      "current_coupon_yield_pct": 17.448918,
+      "clean_rub": 988.1,
+      "dirty_rub": 992.33,
+      "current_coupon_yield_pct": 17.457747,
       "amortizations_to_event": [
         {
           "date": "2027-09-22",
@@ -4125,10 +4202,10 @@
       "coupon_cash_to_event": 172.027397,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1172.027397,
-      "profit_rub": 179.197397,
-      "simple_yield_pct": 18.557579,
-      "xirr_pct": 19.882835,
-      "moex_yield_pct": 19.18,
+      "profit_rub": 179.697397,
+      "simple_yield_pct": 18.618735,
+      "xirr_pct": 19.949055,
+      "moex_yield_pct": 19.24,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4159,7 +4236,7 @@
       "note": "4 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-09-24",
       "event_type": "Погашение",
       "name": "Росагролизинг 002P-03",
@@ -4167,14 +4244,14 @@
       "rating_input": "AA-",
       "formula": "КС + 1.70 п.п.",
       "scenario_coupon_rate_pct": 15.7,
-      "price_pct": 99.84,
+      "price_pct": 99.73,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 6.45,
-      "clean_rub": 998.4,
-      "dirty_rub": 1004.85,
-      "current_coupon_yield_pct": 15.72516,
+      "clean_rub": 997.3,
+      "dirty_rub": 1003.75,
+      "current_coupon_yield_pct": 15.742505,
       "amortizations_to_event": [
         {
           "date": "2027-09-24",
@@ -4190,10 +4267,10 @@
       "coupon_cash_to_event": 160.010959,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1160.010959,
-      "profit_rub": 155.160959,
-      "simple_yield_pct": 15.787227,
-      "xirr_pct": 17.080775,
-      "moex_yield_pct": 16.64,
+      "profit_rub": 156.260959,
+      "simple_yield_pct": 15.916573,
+      "xirr_pct": 17.22219,
+      "moex_yield_pct": 16.62,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4272,7 +4349,7 @@
       "note": "12 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-10-08",
       "event_type": "Погашение",
       "name": "Атомэнергопром 001Р-03",
@@ -4280,14 +4357,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.25 п.п.",
       "scenario_coupon_rate_pct": 15.25,
-      "price_pct": 100.43,
+      "price_pct": 100.41,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 7.94,
-      "clean_rub": 1004.3,
-      "dirty_rub": 1012.24,
-      "current_coupon_yield_pct": 15.184706,
+      "clean_rub": 1004.1,
+      "dirty_rub": 1012.04,
+      "current_coupon_yield_pct": 15.18773,
       "amortizations_to_event": [
         {
           "date": "2027-10-08",
@@ -4303,10 +4380,10 @@
       "coupon_cash_to_event": 162.945205,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1162.945205,
-      "profit_rub": 150.705205,
-      "simple_yield_pct": 14.647507,
-      "xirr_pct": 15.836067,
-      "moex_yield_pct": 15.3,
+      "profit_rub": 150.905205,
+      "simple_yield_pct": 14.669844,
+      "xirr_pct": 15.860399,
+      "moex_yield_pct": 15.15,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4391,7 +4468,7 @@
       "note": "13 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-10-10",
       "event_type": "Погашение",
       "name": "Совкомбанк БО-П05",
@@ -4510,7 +4587,7 @@
       "note": "13 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-10-14",
       "event_type": "Погашение",
       "name": "Акрон 001Р-05",
@@ -4518,14 +4595,14 @@
       "rating_input": "AA",
       "formula": "КС + 1.75 п.п.",
       "scenario_coupon_rate_pct": 15.75,
-      "price_pct": 100.58,
+      "price_pct": 100.56,
       "price_source": "OFFER",
       "current_face": 800.0,
       "initial_face": 1000.0,
       "nkd": 4.49,
-      "clean_rub": 804.64,
-      "dirty_rub": 809.13,
-      "current_coupon_yield_pct": 15.659177,
+      "clean_rub": 804.48,
+      "dirty_rub": 808.97,
+      "current_coupon_yield_pct": 15.662291,
       "amortizations_to_event": [
         {
           "date": "2026-10-19",
@@ -4557,10 +4634,10 @@
       "coupon_cash_to_event": 134.630137,
       "principal_cash_to_event": 800.0,
       "total_future_cash": 934.630137,
-      "profit_rub": 125.500137,
-      "simple_yield_pct": 15.0168,
-      "xirr_pct": 23.469607,
-      "moex_yield_pct": 15.32,
+      "profit_rub": 125.660137,
+      "simple_yield_pct": 15.038919,
+      "xirr_pct": 23.506076,
+      "moex_yield_pct": 15.35,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4645,7 +4722,7 @@
       "note": "13 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-10-14",
       "event_type": "Погашение",
       "name": "Р-Вижн 001Р-01",
@@ -4653,14 +4730,14 @@
       "rating_input": "A+",
       "formula": "КС + 2.75 п.п.",
       "scenario_coupon_rate_pct": 16.75,
-      "price_pct": 100.9,
+      "price_pct": 100.85,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 35.91,
-      "clean_rub": 1009.0,
-      "dirty_rub": 1044.91,
-      "current_coupon_yield_pct": 16.600595,
+      "clean_rub": 1008.5,
+      "dirty_rub": 1044.41,
+      "current_coupon_yield_pct": 16.608825,
       "amortizations_to_event": [
         {
           "date": "2027-10-14",
@@ -4676,10 +4753,10 @@
       "coupon_cash_to_event": 208.80137,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1208.80137,
-      "profit_rub": 163.89137,
-      "simple_yield_pct": 15.185487,
-      "xirr_pct": 16.723679,
-      "moex_yield_pct": 16.11,
+      "profit_rub": 164.39137,
+      "simple_yield_pct": 15.239107,
+      "xirr_pct": 16.783289,
+      "moex_yield_pct": 16.17,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4716,7 +4793,7 @@
       "note": "5 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-10-15",
       "event_type": "Погашение",
       "name": "ПСБ 003P-09",
@@ -4724,14 +4801,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.50 п.п.",
       "scenario_coupon_rate_pct": 15.5,
-      "price_pct": 100.2,
+      "price_pct": 100.24,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 0.42,
-      "clean_rub": 1002.0,
-      "dirty_rub": 1002.42,
-      "current_coupon_yield_pct": 15.469062,
+      "clean_rub": 1002.4,
+      "dirty_rub": 1002.82,
+      "current_coupon_yield_pct": 15.462889,
       "amortizations_to_event": [
         {
           "date": "2027-10-15",
@@ -4747,10 +4824,10 @@
       "coupon_cash_to_event": 160.940822,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1160.940822,
-      "profit_rub": 158.520822,
-      "simple_yield_pct": 15.269951,
-      "xirr_pct": 16.407389,
-      "moex_yield_pct": 15.7,
+      "profit_rub": 158.120822,
+      "simple_yield_pct": 15.225345,
+      "xirr_pct": 16.359181,
+      "moex_yield_pct": 15.65,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4835,7 +4912,7 @@
       "note": "12 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-10-24",
       "event_type": "Погашение",
       "name": "ГПБ Финанс 001Р-02Р",
@@ -4843,14 +4920,14 @@
       "rating_input": "AA+",
       "formula": "КС + 1.50 п.п.",
       "scenario_coupon_rate_pct": 15.5,
-      "price_pct": 99.89,
+      "price_pct": 99.87,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 28.92,
-      "clean_rub": 998.9,
-      "dirty_rub": 1027.82,
-      "current_coupon_yield_pct": 15.517069,
+      "clean_rub": 998.7,
+      "dirty_rub": 1027.62,
+      "current_coupon_yield_pct": 15.520176,
       "amortizations_to_event": [
         {
           "date": "2027-10-24",
@@ -4866,10 +4943,10 @@
       "coupon_cash_to_event": 193.219178,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1193.219178,
-      "profit_rub": 165.399178,
-      "simple_yield_pct": 15.177428,
-      "xirr_pct": 16.532445,
-      "moex_yield_pct": 15.86,
+      "profit_rub": 165.599178,
+      "simple_yield_pct": 15.198738,
+      "xirr_pct": 16.555806,
+      "moex_yield_pct": 17.16,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -4906,7 +4983,7 @@
       "note": "5 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-11-07",
       "event_type": "Погашение",
       "name": "Интерлизинг 001Р-10",
@@ -5083,7 +5160,7 @@
       "note": "13 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-11-09",
       "event_type": "Погашение",
       "name": "Альфа-Лизинг БО-02",
@@ -5154,7 +5231,7 @@
       "note": "5 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-11-12",
       "event_type": "Погашение",
       "name": "ГТЛК 002P-06",
@@ -5279,7 +5356,7 @@
       "note": "14 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-11-18",
       "event_type": "Погашение",
       "name": "Европлан 001P-08",
@@ -5287,14 +5364,14 @@
       "rating_input": "AA",
       "formula": "КС + 4.00 п.п.",
       "scenario_coupon_rate_pct": 18.0,
-      "price_pct": 102.38,
+      "price_pct": 102.46,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 3.95,
-      "clean_rub": 1023.8,
-      "dirty_rub": 1027.75,
-      "current_coupon_yield_pct": 17.581559,
+      "clean_rub": 1024.6,
+      "dirty_rub": 1028.55,
+      "current_coupon_yield_pct": 17.567831,
       "amortizations_to_event": [
         {
           "date": "2027-02-21",
@@ -5322,10 +5399,10 @@
       "coupon_cash_to_event": 207.123288,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1207.123288,
-      "profit_rub": 179.373288,
-      "simple_yield_pct": 15.462009,
-      "xirr_pct": 24.991891,
-      "moex_yield_pct": 15.08,
+      "profit_rub": 178.573288,
+      "simple_yield_pct": 15.381077,
+      "xirr_pct": 24.855291,
+      "moex_yield_pct": 14.97,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -5416,7 +5493,7 @@
       "note": "14 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-11-23",
       "event_type": "Погашение",
       "name": "Металлоинвест 001P-06",
@@ -5424,14 +5501,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.20 п.п.",
       "scenario_coupon_rate_pct": 15.2,
-      "price_pct": 99.0,
+      "price_pct": 98.99,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 15.82,
-      "clean_rub": 990.0,
-      "dirty_rub": 1005.82,
-      "current_coupon_yield_pct": 15.353535,
+      "clean_rub": 989.9,
+      "dirty_rub": 1005.72,
+      "current_coupon_yield_pct": 15.355086,
       "amortizations_to_event": [
         {
           "date": "2027-11-23",
@@ -5447,9 +5524,9 @@
       "coupon_cash_to_event": 189.479452,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1189.479452,
-      "profit_rub": 183.659452,
-      "simple_yield_pct": 15.982688,
-      "xirr_pct": 17.165529,
+      "profit_rub": 183.759452,
+      "simple_yield_pct": 15.992981,
+      "xirr_pct": 17.17658,
       "moex_yield_pct": 16.53,
       "excluded_coupons": [],
       "projected_coupons": [
@@ -5487,7 +5564,7 @@
       "note": "5 куп. рассчитано по КС=14%+спред"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-11-24",
       "event_type": "Погашение",
       "name": "АФК Система 002Р-07",
@@ -5495,14 +5572,14 @@
       "rating_input": "AA-",
       "formula": "КС + 4.50 п.п.",
       "scenario_coupon_rate_pct": 18.5,
-      "price_pct": 99.59,
+      "price_pct": 99.45,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 1.01,
-      "clean_rub": 995.9,
-      "dirty_rub": 996.91,
-      "current_coupon_yield_pct": 18.576162,
+      "clean_rub": 994.5,
+      "dirty_rub": 995.51,
+      "current_coupon_yield_pct": 18.602313,
       "amortizations_to_event": [
         {
           "date": "2027-11-24",
@@ -5518,10 +5595,10 @@
       "coupon_cash_to_event": 212.876712,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1212.876712,
-      "profit_rub": 215.966712,
-      "simple_yield_pct": 18.91679,
-      "xirr_pct": 20.629377,
-      "moex_yield_pct": 19.96,
+      "profit_rub": 217.366712,
+      "simple_yield_pct": 19.066193,
+      "xirr_pct": 20.792599,
+      "moex_yield_pct": 20.12,
       "excluded_coupons": [],
       "projected_coupons": [
         {
@@ -5618,7 +5695,7 @@
       "error": "security_not_found_on_TQCB_or_TQOB"
     },
     {
-      "snapshot_msk": "2026-10-01T15:38:48+03:00",
+      "snapshot_msk": "2026-10-01T21:43:24+03:00",
       "event_date": "2027-12-13",
       "event_type": "Погашение",
       "name": "АЛРОСА 002Р-01",
@@ -5626,14 +5703,14 @@
       "rating_input": "AAA",
       "formula": "КС + 1.35 п.п.",
       "scenario_coupon_rate_pct": 15.35,
-      "price_pct": 100.94,
+      "price_pct": 100.39,
       "price_source": "OFFER",
       "current_face": 1000.0,
       "initial_face": 1000.0,
       "nkd": 5.47,
-      "clean_rub": 1009.4,
-      "dirty_rub": 1014.87,
-      "current_coupon_yield_pct": 15.207054,
+      "clean_rub": 1003.9,
+      "dirty_rub": 1009.37,
+      "current_coupon_yield_pct": 15.290368,
       "amortizations_to_event": [
         {
           "date": "2027-12-13",
@@ -5649,10 +5726,10 @@
       "coupon_cash_to_event": 189.250137,
       "principal_cash_to_event": 1000.0,
       "total_future_cash": 1189.250137,
-      "profit_rub": 174.380137,
-      "simple_yield_pct": 14.351524,
-      "xirr_pct": 15.491819,
-      "moex_yield_pct": 15.35,
+      "profit_rub": 179.880137,
+      "simple_yield_pct": 14.884843,
+      "xirr_pct": 16.065996,
+      "moex_yield_pct": 15.44,
       "excluded_coupons": [],
       "projected_coupons": [
         {
