@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-27T16:13:14+00:00",
-  "generated_at_msk": "2026-11-27T19:13:14+03:00",
+  "generated_at_utc": "2026-11-28T00:09:57+00:00",
+  "generated_at_msk": "2026-11-28T03:09:57+03:00",
   "source": "MOEX ISS",
   "coverage": [
     "TQCB",
@@ -15,7 +15,7 @@
   "with_rating": 1083,
   "with_offer_metadata": 488,
   "market_data_stale": true,
-  "fallback_commit": "89c8fd6c8abffa0bd2bd3122010b8b00433a9c88",
+  "fallback_commit": "d8664b347e10a3c78b51c8b5df33c81c495fcbc9",
   "fetch_errors": [
     "TQCB: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)>",
     "TQOB: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)>"
